@@ -1,14 +1,3746 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+    "productos": [
+        {
+            "id": "1",
+            "type": "1",
+            "name": "Tradicionales",
+            "promedio": 53,
+            "meta": 5,
+            "juegos": [],
+            "createdAt": "2021-06-15T09:05:33.646Z"
+        },
+        {
+            "id": "2",
+            "type": "2",
+            "name": "No Tradicionales",
+            "promedio": 6,
+            "meta": 74,
+            "juegos": [],
+            "createdAt": "2021-06-15T20:04:56.248Z"
+        },
+        {
+            "id": "3",
+            "type": "3",
+            "name": "Reacargas",
+            "promedio": 10,
+            "meta": 25,
+            "juegos": [],
+            "createdAt": "2021-06-15T17:09:55.564Z"
+        }
+    ],
+    "juegos": [
+        {
+            "id": "1",
+            "createdAt": "2021-06-16T03:09:01.829Z",
+            "name": "Mega Chance",
+            "total_ventas": 35530000,
+            "meta": 10000000
+        },
+        {
+            "id": "2",
+            "createdAt": "2021-06-15T06:21:22.557Z",
+            "name": "Mega Lotto",
+            "total_ventas": 34430000,
+            "meta": 10000000
+        },
+        {
+            "id": "3",
+            "createdAt": "2021-06-15T19:26:01.263Z",
+            "name": "Quiniela Loteka",
+            "total_ventas": 78870000,
+            "meta": 10000000
+        },
+        {
+            "id": "4",
+            "createdAt": "2021-06-15T10:19:46.352Z",
+            "name": "Chance Express",
+            "total_ventas": 47740000,
+            "meta": 10000000
+        },
+        {
+            "id": "5",
+            "createdAt": "2021-06-15T17:45:11.593Z",
+            "name": "El Extra",
+            "total_ventas": 17710000,
+            "meta": 10000000
+        }
+    ],
+    "indicadores": [
+        {
+            "id": "1",
+            "createdAt": "2021-06-16T03:09:01.829Z",
+            "name": "Mega Chance",
+            "descripcion": "Agencias con bajo promedio de ventas.",
+            "agencias": [
+                1,
+                2,
+                3
+            ]
+        },
+        {
+            "id": "2",
+            "createdAt": "2021-06-15T06:21:22.557Z",
+            "name": "Agencias que no han reportado ventas en más de 2 horas.",
+            "agencias": [
+                50,
+                49,
+                48,
+                47,
+                46,
+                45
+            ]
+        }
+    ],
+    "agencias": [
+        {
+            "id": "1",
+            "createdAt": "2021-06-15T10:59:16.616Z",
+            "name": 82,
+            "total_ventas": 76030213.00,
+            "procentaje": 73,
+            "productos": [
+                {
+                    "id": "1",
+                    "type": "1",
+                    "name": "Tradicionales",
+                    "promedio": 53,
+                    "meta": 5,
+                    "juegos": [],
+                    "createdAt": "2021-06-15T09:05:33.646Z"
+                },
+                {
+                    "id": "2",
+                    "type": "2",
+                    "name": "No Tradicionales",
+                    "promedio": 6,
+                    "meta": 74,
+                    "juegos": [],
+                    "createdAt": "2021-06-15T20:04:56.248Z"
+                },
+                {
+                    "id": "3",
+                    "type": "3",
+                    "name": "Reacargas",
+                    "promedio": 10,
+                    "meta": 25,
+                    "juegos": [],
+                    "createdAt": "2021-06-15T17:09:55.564Z"
+                }
+            ],
+            "juegos": [
+                {
+                    "id": "1",
+                    "createdAt": "2021-06-16T03:09:01.829Z",
+                    "name": "Mega Chance",
+                    "total_ventas": 35530000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "2",
+                    "createdAt": "2021-06-15T06:21:22.557Z",
+                    "name": "Mega Lotto",
+                    "total_ventas": 34430000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "3",
+                    "createdAt": "2021-06-15T19:26:01.263Z",
+                    "name": "Quiniela Loteka",
+                    "total_ventas": 78870000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "4",
+                    "createdAt": "2021-06-15T10:19:46.352Z",
+                    "name": "Chance Express",
+                    "total_ventas": 47740000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "5",
+                    "createdAt": "2021-06-15T17:45:11.593Z",
+                    "name": "El Extra",
+                    "total_ventas": 17710000,
+                    "meta": 10000000
+                }
+            ]
+        },
+        {
+            "id": "2",
+            "createdAt": "2021-06-16T02:45:36.652Z",
+            "name": 19,
+            "total_ventas": 27630213.00,
+            "procentaje": 84,
+            "productos": [
+                {
+                    "id": "1",
+                    "type": "1",
+                    "name": "Tradicionales",
+                    "promedio": 53,
+                    "meta": 5,
+                    "juegos": [],
+                    "createdAt": "2021-06-15T09:05:33.646Z"
+                },
+                {
+                    "id": "2",
+                    "type": "2",
+                    "name": "No Tradicionales",
+                    "promedio": 6,
+                    "meta": 74,
+                    "juegos": [],
+                    "createdAt": "2021-06-15T20:04:56.248Z"
+                },
+                {
+                    "id": "3",
+                    "type": "3",
+                    "name": "Reacargas",
+                    "promedio": 10,
+                    "meta": 25,
+                    "juegos": [],
+                    "createdAt": "2021-06-15T17:09:55.564Z"
+                }
+            ],
+            "juegos": [
+                {
+                    "id": "1",
+                    "createdAt": "2021-06-16T03:09:01.829Z",
+                    "name": "Mega Chance",
+                    "total_ventas": 35530000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "2",
+                    "createdAt": "2021-06-15T06:21:22.557Z",
+                    "name": "Mega Lotto",
+                    "total_ventas": 34430000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "3",
+                    "createdAt": "2021-06-15T19:26:01.263Z",
+                    "name": "Quiniela Loteka",
+                    "total_ventas": 78870000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "4",
+                    "createdAt": "2021-06-15T10:19:46.352Z",
+                    "name": "Chance Express",
+                    "total_ventas": 47740000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "5",
+                    "createdAt": "2021-06-15T17:45:11.593Z",
+                    "name": "El Extra",
+                    "total_ventas": 17710000,
+                    "meta": 10000000
+                }
+            ]
+        },
+        {
+            "id": "3",
+            "createdAt": "2021-06-16T01:34:54.252Z",
+            "name": 41,
+            "total_ventas": 11630213.00,
+            "procentaje": 57,
+            "productos": [
+                {
+                    "id": "1",
+                    "type": "1",
+                    "name": "Tradicionales",
+                    "promedio": 53,
+                    "meta": 5,
+                    "juegos": [],
+                    "createdAt": "2021-06-15T09:05:33.646Z"
+                },
+                {
+                    "id": "2",
+                    "type": "2",
+                    "name": "No Tradicionales",
+                    "promedio": 6,
+                    "meta": 74,
+                    "juegos": [],
+                    "createdAt": "2021-06-15T20:04:56.248Z"
+                },
+                {
+                    "id": "3",
+                    "type": "3",
+                    "name": "Reacargas",
+                    "promedio": 10,
+                    "meta": 25,
+                    "juegos": [],
+                    "createdAt": "2021-06-15T17:09:55.564Z"
+                }
+            ],
+            "juegos": [
+                {
+                    "id": "1",
+                    "createdAt": "2021-06-16T03:09:01.829Z",
+                    "name": "Mega Chance",
+                    "total_ventas": 35530000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "2",
+                    "createdAt": "2021-06-15T06:21:22.557Z",
+                    "name": "Mega Lotto",
+                    "total_ventas": 34430000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "3",
+                    "createdAt": "2021-06-15T19:26:01.263Z",
+                    "name": "Quiniela Loteka",
+                    "total_ventas": 78870000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "4",
+                    "createdAt": "2021-06-15T10:19:46.352Z",
+                    "name": "Chance Express",
+                    "total_ventas": 47740000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "5",
+                    "createdAt": "2021-06-15T17:45:11.593Z",
+                    "name": "El Extra",
+                    "total_ventas": 17710000,
+                    "meta": 10000000
+                }
+            ]
+        },
+        {
+            "id": "4",
+            "createdAt": "2021-06-16T05:42:28.762Z",
+            "name": 90,
+            "total_ventas": 65630213.00,
+            "procentaje": 78,
+            "productos": [
+                {
+                    "id": "1",
+                    "type": "1",
+                    "name": "Tradicionales",
+                    "promedio": 53,
+                    "meta": 5,
+                    "juegos": [],
+                    "createdAt": "2021-06-15T09:05:33.646Z"
+                },
+                {
+                    "id": "2",
+                    "type": "2",
+                    "name": "No Tradicionales",
+                    "promedio": 6,
+                    "meta": 74,
+                    "juegos": [],
+                    "createdAt": "2021-06-15T20:04:56.248Z"
+                },
+                {
+                    "id": "3",
+                    "type": "3",
+                    "name": "Reacargas",
+                    "promedio": 10,
+                    "meta": 25,
+                    "juegos": [],
+                    "createdAt": "2021-06-15T17:09:55.564Z"
+                }
+            ],
+            "juegos": [
+                {
+                    "id": "1",
+                    "createdAt": "2021-06-16T03:09:01.829Z",
+                    "name": "Mega Chance",
+                    "total_ventas": 35530000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "2",
+                    "createdAt": "2021-06-15T06:21:22.557Z",
+                    "name": "Mega Lotto",
+                    "total_ventas": 34430000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "3",
+                    "createdAt": "2021-06-15T19:26:01.263Z",
+                    "name": "Quiniela Loteka",
+                    "total_ventas": 78870000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "4",
+                    "createdAt": "2021-06-15T10:19:46.352Z",
+                    "name": "Chance Express",
+                    "total_ventas": 47740000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "5",
+                    "createdAt": "2021-06-15T17:45:11.593Z",
+                    "name": "El Extra",
+                    "total_ventas": 17710000,
+                    "meta": 10000000
+                }
+            ]
+        },
+        {
+            "id": "5",
+            "createdAt": "2021-06-15T23:12:47.328Z",
+            "name": 87,
+            "total_ventas": 1530213.00,
+            "procentaje": 47,
+            "productos": [
+                {
+                    "id": "1",
+                    "type": "1",
+                    "name": "Tradicionales",
+                    "promedio": 53,
+                    "meta": 5,
+                    "juegos": [],
+                    "createdAt": "2021-06-15T09:05:33.646Z"
+                },
+                {
+                    "id": "2",
+                    "type": "2",
+                    "name": "No Tradicionales",
+                    "promedio": 6,
+                    "meta": 74,
+                    "juegos": [],
+                    "createdAt": "2021-06-15T20:04:56.248Z"
+                },
+                {
+                    "id": "3",
+                    "type": "3",
+                    "name": "Reacargas",
+                    "promedio": 10,
+                    "meta": 25,
+                    "juegos": [],
+                    "createdAt": "2021-06-15T17:09:55.564Z"
+                }
+            ],
+            "juegos": [
+                {
+                    "id": "1",
+                    "createdAt": "2021-06-16T03:09:01.829Z",
+                    "name": "Mega Chance",
+                    "total_ventas": 35530000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "2",
+                    "createdAt": "2021-06-15T06:21:22.557Z",
+                    "name": "Mega Lotto",
+                    "total_ventas": 34430000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "3",
+                    "createdAt": "2021-06-15T19:26:01.263Z",
+                    "name": "Quiniela Loteka",
+                    "total_ventas": 78870000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "4",
+                    "createdAt": "2021-06-15T10:19:46.352Z",
+                    "name": "Chance Express",
+                    "total_ventas": 47740000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "5",
+                    "createdAt": "2021-06-15T17:45:11.593Z",
+                    "name": "El Extra",
+                    "total_ventas": 17710000,
+                    "meta": 10000000
+                }
+            ]
+        },
+        {
+            "id": "6",
+            "createdAt": "2021-06-16T04:55:45.814Z",
+            "name": 71,
+            "total_ventas": 81230213.00,
+            "procentaje": 37,
+            "productos": [
+                {
+                    "id": "1",
+                    "type": "1",
+                    "name": "Tradicionales",
+                    "promedio": 53,
+                    "meta": 5,
+                    "juegos": [],
+                    "createdAt": "2021-06-15T09:05:33.646Z"
+                },
+                {
+                    "id": "2",
+                    "type": "2",
+                    "name": "No Tradicionales",
+                    "promedio": 6,
+                    "meta": 74,
+                    "juegos": [],
+                    "createdAt": "2021-06-15T20:04:56.248Z"
+                },
+                {
+                    "id": "3",
+                    "type": "3",
+                    "name": "Reacargas",
+                    "promedio": 10,
+                    "meta": 25,
+                    "juegos": [],
+                    "createdAt": "2021-06-15T17:09:55.564Z"
+                }
+            ],
+            "juegos": [
+                {
+                    "id": "1",
+                    "createdAt": "2021-06-16T03:09:01.829Z",
+                    "name": "Mega Chance",
+                    "total_ventas": 35530000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "2",
+                    "createdAt": "2021-06-15T06:21:22.557Z",
+                    "name": "Mega Lotto",
+                    "total_ventas": 34430000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "3",
+                    "createdAt": "2021-06-15T19:26:01.263Z",
+                    "name": "Quiniela Loteka",
+                    "total_ventas": 78870000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "4",
+                    "createdAt": "2021-06-15T10:19:46.352Z",
+                    "name": "Chance Express",
+                    "total_ventas": 47740000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "5",
+                    "createdAt": "2021-06-15T17:45:11.593Z",
+                    "name": "El Extra",
+                    "total_ventas": 17710000,
+                    "meta": 10000000
+                }
+            ]
+        },
+        {
+            "id": "7",
+            "createdAt": "2021-06-15T12:57:52.173Z",
+            "name": 53,
+            "total_ventas": 70430213.00,
+            "procentaje": 78,
+            "productos": [
+                {
+                    "id": "1",
+                    "type": "1",
+                    "name": "Tradicionales",
+                    "promedio": 53,
+                    "meta": 5,
+                    "juegos": [],
+                    "createdAt": "2021-06-15T09:05:33.646Z"
+                },
+                {
+                    "id": "2",
+                    "type": "2",
+                    "name": "No Tradicionales",
+                    "promedio": 6,
+                    "meta": 74,
+                    "juegos": [],
+                    "createdAt": "2021-06-15T20:04:56.248Z"
+                },
+                {
+                    "id": "3",
+                    "type": "3",
+                    "name": "Reacargas",
+                    "promedio": 10,
+                    "meta": 25,
+                    "juegos": [],
+                    "createdAt": "2021-06-15T17:09:55.564Z"
+                }
+            ],
+            "juegos": [
+                {
+                    "id": "1",
+                    "createdAt": "2021-06-16T03:09:01.829Z",
+                    "name": "Mega Chance",
+                    "total_ventas": 35530000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "2",
+                    "createdAt": "2021-06-15T06:21:22.557Z",
+                    "name": "Mega Lotto",
+                    "total_ventas": 34430000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "3",
+                    "createdAt": "2021-06-15T19:26:01.263Z",
+                    "name": "Quiniela Loteka",
+                    "total_ventas": 78870000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "4",
+                    "createdAt": "2021-06-15T10:19:46.352Z",
+                    "name": "Chance Express",
+                    "total_ventas": 47740000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "5",
+                    "createdAt": "2021-06-15T17:45:11.593Z",
+                    "name": "El Extra",
+                    "total_ventas": 17710000,
+                    "meta": 10000000
+                }
+            ]
+        },
+        {
+            "id": "8",
+            "createdAt": "2021-06-16T01:55:06.079Z",
+            "name": 53,
+            "total_ventas": 73830213.00,
+            "procentaje": 66,
+            "productos": [
+                {
+                    "id": "1",
+                    "type": "1",
+                    "name": "Tradicionales",
+                    "promedio": 53,
+                    "meta": 5,
+                    "juegos": [],
+                    "createdAt": "2021-06-15T09:05:33.646Z"
+                },
+                {
+                    "id": "2",
+                    "type": "2",
+                    "name": "No Tradicionales",
+                    "promedio": 6,
+                    "meta": 74,
+                    "juegos": [],
+                    "createdAt": "2021-06-15T20:04:56.248Z"
+                },
+                {
+                    "id": "3",
+                    "type": "3",
+                    "name": "Reacargas",
+                    "promedio": 10,
+                    "meta": 25,
+                    "juegos": [],
+                    "createdAt": "2021-06-15T17:09:55.564Z"
+                }
+            ],
+            "juegos": [
+                {
+                    "id": "1",
+                    "createdAt": "2021-06-16T03:09:01.829Z",
+                    "name": "Mega Chance",
+                    "total_ventas": 35530000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "2",
+                    "createdAt": "2021-06-15T06:21:22.557Z",
+                    "name": "Mega Lotto",
+                    "total_ventas": 34430000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "3",
+                    "createdAt": "2021-06-15T19:26:01.263Z",
+                    "name": "Quiniela Loteka",
+                    "total_ventas": 78870000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "4",
+                    "createdAt": "2021-06-15T10:19:46.352Z",
+                    "name": "Chance Express",
+                    "total_ventas": 47740000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "5",
+                    "createdAt": "2021-06-15T17:45:11.593Z",
+                    "name": "El Extra",
+                    "total_ventas": 17710000,
+                    "meta": 10000000
+                }
+            ]
+        },
+        {
+            "id": "9",
+            "createdAt": "2021-06-15T16:38:32.256Z",
+            "name": 98,
+            "total_ventas": 69430213.00,
+            "procentaje": 25,
+            "productos": [
+                {
+                    "id": "1",
+                    "type": "1",
+                    "name": "Tradicionales",
+                    "promedio": 53,
+                    "meta": 5,
+                    "juegos": [],
+                    "createdAt": "2021-06-15T09:05:33.646Z"
+                },
+                {
+                    "id": "2",
+                    "type": "2",
+                    "name": "No Tradicionales",
+                    "promedio": 6,
+                    "meta": 74,
+                    "juegos": [],
+                    "createdAt": "2021-06-15T20:04:56.248Z"
+                },
+                {
+                    "id": "3",
+                    "type": "3",
+                    "name": "Reacargas",
+                    "promedio": 10,
+                    "meta": 25,
+                    "juegos": [],
+                    "createdAt": "2021-06-15T17:09:55.564Z"
+                }
+            ],
+            "juegos": [
+                {
+                    "id": "1",
+                    "createdAt": "2021-06-16T03:09:01.829Z",
+                    "name": "Mega Chance",
+                    "total_ventas": 35530000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "2",
+                    "createdAt": "2021-06-15T06:21:22.557Z",
+                    "name": "Mega Lotto",
+                    "total_ventas": 34430000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "3",
+                    "createdAt": "2021-06-15T19:26:01.263Z",
+                    "name": "Quiniela Loteka",
+                    "total_ventas": 78870000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "4",
+                    "createdAt": "2021-06-15T10:19:46.352Z",
+                    "name": "Chance Express",
+                    "total_ventas": 47740000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "5",
+                    "createdAt": "2021-06-15T17:45:11.593Z",
+                    "name": "El Extra",
+                    "total_ventas": 17710000,
+                    "meta": 10000000
+                }
+            ]
+        },
+        {
+            "id": "10",
+            "createdAt": "2021-06-15T08:41:03.486Z",
+            "name": 69,
+            "total_ventas": 76530213.00,
+            "procentaje": 87,
+            "productos": [
+                {
+                    "id": "1",
+                    "type": "1",
+                    "name": "Tradicionales",
+                    "promedio": 53,
+                    "meta": 5,
+                    "juegos": [],
+                    "createdAt": "2021-06-15T09:05:33.646Z"
+                },
+                {
+                    "id": "2",
+                    "type": "2",
+                    "name": "No Tradicionales",
+                    "promedio": 6,
+                    "meta": 74,
+                    "juegos": [],
+                    "createdAt": "2021-06-15T20:04:56.248Z"
+                },
+                {
+                    "id": "3",
+                    "type": "3",
+                    "name": "Reacargas",
+                    "promedio": 10,
+                    "meta": 25,
+                    "juegos": [],
+                    "createdAt": "2021-06-15T17:09:55.564Z"
+                }
+            ],
+            "juegos": [
+                {
+                    "id": "1",
+                    "createdAt": "2021-06-16T03:09:01.829Z",
+                    "name": "Mega Chance",
+                    "total_ventas": 35530000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "2",
+                    "createdAt": "2021-06-15T06:21:22.557Z",
+                    "name": "Mega Lotto",
+                    "total_ventas": 34430000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "3",
+                    "createdAt": "2021-06-15T19:26:01.263Z",
+                    "name": "Quiniela Loteka",
+                    "total_ventas": 78870000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "4",
+                    "createdAt": "2021-06-15T10:19:46.352Z",
+                    "name": "Chance Express",
+                    "total_ventas": 47740000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "5",
+                    "createdAt": "2021-06-15T17:45:11.593Z",
+                    "name": "El Extra",
+                    "total_ventas": 17710000,
+                    "meta": 10000000
+                }
+            ]
+        },
+        {
+            "id": "11",
+            "createdAt": "2021-06-15T19:29:46.470Z",
+            "name": 57,
+            "total_ventas": 55630213.00,
+            "procentaje": 78,
+            "productos": [
+                {
+                    "id": "1",
+                    "type": "1",
+                    "name": "Tradicionales",
+                    "promedio": 53,
+                    "meta": 5,
+                    "juegos": [],
+                    "createdAt": "2021-06-15T09:05:33.646Z"
+                },
+                {
+                    "id": "2",
+                    "type": "2",
+                    "name": "No Tradicionales",
+                    "promedio": 6,
+                    "meta": 74,
+                    "juegos": [],
+                    "createdAt": "2021-06-15T20:04:56.248Z"
+                },
+                {
+                    "id": "3",
+                    "type": "3",
+                    "name": "Reacargas",
+                    "promedio": 10,
+                    "meta": 25,
+                    "juegos": [],
+                    "createdAt": "2021-06-15T17:09:55.564Z"
+                }
+            ],
+            "juegos": [
+                {
+                    "id": "1",
+                    "createdAt": "2021-06-16T03:09:01.829Z",
+                    "name": "Mega Chance",
+                    "total_ventas": 35530000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "2",
+                    "createdAt": "2021-06-15T06:21:22.557Z",
+                    "name": "Mega Lotto",
+                    "total_ventas": 34430000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "3",
+                    "createdAt": "2021-06-15T19:26:01.263Z",
+                    "name": "Quiniela Loteka",
+                    "total_ventas": 78870000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "4",
+                    "createdAt": "2021-06-15T10:19:46.352Z",
+                    "name": "Chance Express",
+                    "total_ventas": 47740000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "5",
+                    "createdAt": "2021-06-15T17:45:11.593Z",
+                    "name": "El Extra",
+                    "total_ventas": 17710000,
+                    "meta": 10000000
+                }
+            ]
+        },
+        {
+            "id": "12",
+            "createdAt": "2021-06-15T18:46:05.320Z",
+            "name": 53,
+            "total_ventas": 36830213.00,
+            "procentaje": 43,
+            "productos": [
+                {
+                    "id": "1",
+                    "type": "1",
+                    "name": "Tradicionales",
+                    "promedio": 53,
+                    "meta": 5,
+                    "juegos": [],
+                    "createdAt": "2021-06-15T09:05:33.646Z"
+                },
+                {
+                    "id": "2",
+                    "type": "2",
+                    "name": "No Tradicionales",
+                    "promedio": 6,
+                    "meta": 74,
+                    "juegos": [],
+                    "createdAt": "2021-06-15T20:04:56.248Z"
+                },
+                {
+                    "id": "3",
+                    "type": "3",
+                    "name": "Reacargas",
+                    "promedio": 10,
+                    "meta": 25,
+                    "juegos": [],
+                    "createdAt": "2021-06-15T17:09:55.564Z"
+                }
+            ],
+            "juegos": [
+                {
+                    "id": "1",
+                    "createdAt": "2021-06-16T03:09:01.829Z",
+                    "name": "Mega Chance",
+                    "total_ventas": 35530000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "2",
+                    "createdAt": "2021-06-15T06:21:22.557Z",
+                    "name": "Mega Lotto",
+                    "total_ventas": 34430000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "3",
+                    "createdAt": "2021-06-15T19:26:01.263Z",
+                    "name": "Quiniela Loteka",
+                    "total_ventas": 78870000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "4",
+                    "createdAt": "2021-06-15T10:19:46.352Z",
+                    "name": "Chance Express",
+                    "total_ventas": 47740000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "5",
+                    "createdAt": "2021-06-15T17:45:11.593Z",
+                    "name": "El Extra",
+                    "total_ventas": 17710000,
+                    "meta": 10000000
+                }
+            ]
+        },
+        {
+            "id": "13",
+            "createdAt": "2021-06-15T21:52:31.616Z",
+            "name": 2,
+            "total_ventas": 75430213.00,
+            "procentaje": 81,
+            "productos": [
+                {
+                    "id": "1",
+                    "type": "1",
+                    "name": "Tradicionales",
+                    "promedio": 53,
+                    "meta": 5,
+                    "juegos": [],
+                    "createdAt": "2021-06-15T09:05:33.646Z"
+                },
+                {
+                    "id": "2",
+                    "type": "2",
+                    "name": "No Tradicionales",
+                    "promedio": 6,
+                    "meta": 74,
+                    "juegos": [],
+                    "createdAt": "2021-06-15T20:04:56.248Z"
+                },
+                {
+                    "id": "3",
+                    "type": "3",
+                    "name": "Reacargas",
+                    "promedio": 10,
+                    "meta": 25,
+                    "juegos": [],
+                    "createdAt": "2021-06-15T17:09:55.564Z"
+                }
+            ],
+            "juegos": [
+                {
+                    "id": "1",
+                    "createdAt": "2021-06-16T03:09:01.829Z",
+                    "name": "Mega Chance",
+                    "total_ventas": 35530000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "2",
+                    "createdAt": "2021-06-15T06:21:22.557Z",
+                    "name": "Mega Lotto",
+                    "total_ventas": 34430000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "3",
+                    "createdAt": "2021-06-15T19:26:01.263Z",
+                    "name": "Quiniela Loteka",
+                    "total_ventas": 78870000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "4",
+                    "createdAt": "2021-06-15T10:19:46.352Z",
+                    "name": "Chance Express",
+                    "total_ventas": 47740000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "5",
+                    "createdAt": "2021-06-15T17:45:11.593Z",
+                    "name": "El Extra",
+                    "total_ventas": 17710000,
+                    "meta": 10000000
+                }
+            ]
+        },
+        {
+            "id": "14",
+            "createdAt": "2021-06-15T22:59:05.881Z",
+            "name": 59,
+            "total_ventas": 73630213.00,
+            "procentaje": 64,
+            "productos": [
+                {
+                    "id": "1",
+                    "type": "1",
+                    "name": "Tradicionales",
+                    "promedio": 53,
+                    "meta": 5,
+                    "juegos": [],
+                    "createdAt": "2021-06-15T09:05:33.646Z"
+                },
+                {
+                    "id": "2",
+                    "type": "2",
+                    "name": "No Tradicionales",
+                    "promedio": 6,
+                    "meta": 74,
+                    "juegos": [],
+                    "createdAt": "2021-06-15T20:04:56.248Z"
+                },
+                {
+                    "id": "3",
+                    "type": "3",
+                    "name": "Reacargas",
+                    "promedio": 10,
+                    "meta": 25,
+                    "juegos": [],
+                    "createdAt": "2021-06-15T17:09:55.564Z"
+                }
+            ],
+            "juegos": [
+                {
+                    "id": "1",
+                    "createdAt": "2021-06-16T03:09:01.829Z",
+                    "name": "Mega Chance",
+                    "total_ventas": 35530000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "2",
+                    "createdAt": "2021-06-15T06:21:22.557Z",
+                    "name": "Mega Lotto",
+                    "total_ventas": 34430000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "3",
+                    "createdAt": "2021-06-15T19:26:01.263Z",
+                    "name": "Quiniela Loteka",
+                    "total_ventas": 78870000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "4",
+                    "createdAt": "2021-06-15T10:19:46.352Z",
+                    "name": "Chance Express",
+                    "total_ventas": 47740000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "5",
+                    "createdAt": "2021-06-15T17:45:11.593Z",
+                    "name": "El Extra",
+                    "total_ventas": 17710000,
+                    "meta": 10000000
+                }
+            ]
+        },
+        {
+            "id": "15",
+            "createdAt": "2021-06-15T10:39:00.991Z",
+            "name": 52,
+            "total_ventas": 46430213.00,
+            "procentaje": 85,
+            "productos": [
+                {
+                    "id": "1",
+                    "type": "1",
+                    "name": "Tradicionales",
+                    "promedio": 53,
+                    "meta": 5,
+                    "juegos": [],
+                    "createdAt": "2021-06-15T09:05:33.646Z"
+                },
+                {
+                    "id": "2",
+                    "type": "2",
+                    "name": "No Tradicionales",
+                    "promedio": 6,
+                    "meta": 74,
+                    "juegos": [],
+                    "createdAt": "2021-06-15T20:04:56.248Z"
+                },
+                {
+                    "id": "3",
+                    "type": "3",
+                    "name": "Reacargas",
+                    "promedio": 10,
+                    "meta": 25,
+                    "juegos": [],
+                    "createdAt": "2021-06-15T17:09:55.564Z"
+                }
+            ],
+            "juegos": [
+                {
+                    "id": "1",
+                    "createdAt": "2021-06-16T03:09:01.829Z",
+                    "name": "Mega Chance",
+                    "total_ventas": 35530000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "2",
+                    "createdAt": "2021-06-15T06:21:22.557Z",
+                    "name": "Mega Lotto",
+                    "total_ventas": 34430000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "3",
+                    "createdAt": "2021-06-15T19:26:01.263Z",
+                    "name": "Quiniela Loteka",
+                    "total_ventas": 78870000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "4",
+                    "createdAt": "2021-06-15T10:19:46.352Z",
+                    "name": "Chance Express",
+                    "total_ventas": 47740000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "5",
+                    "createdAt": "2021-06-15T17:45:11.593Z",
+                    "name": "El Extra",
+                    "total_ventas": 17710000,
+                    "meta": 10000000
+                }
+            ]
+        },
+        {
+            "id": "16",
+            "createdAt": "2021-06-16T03:41:51.459Z",
+            "name": 15,
+            "total_ventas": 76530213.00,
+            "procentaje": 29,
+            "productos": [
+                {
+                    "id": "1",
+                    "type": "1",
+                    "name": "Tradicionales",
+                    "promedio": 53,
+                    "meta": 5,
+                    "juegos": [],
+                    "createdAt": "2021-06-15T09:05:33.646Z"
+                },
+                {
+                    "id": "2",
+                    "type": "2",
+                    "name": "No Tradicionales",
+                    "promedio": 6,
+                    "meta": 74,
+                    "juegos": [],
+                    "createdAt": "2021-06-15T20:04:56.248Z"
+                },
+                {
+                    "id": "3",
+                    "type": "3",
+                    "name": "Reacargas",
+                    "promedio": 10,
+                    "meta": 25,
+                    "juegos": [],
+                    "createdAt": "2021-06-15T17:09:55.564Z"
+                }
+            ],
+            "juegos": [
+                {
+                    "id": "1",
+                    "createdAt": "2021-06-16T03:09:01.829Z",
+                    "name": "Mega Chance",
+                    "total_ventas": 35530000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "2",
+                    "createdAt": "2021-06-15T06:21:22.557Z",
+                    "name": "Mega Lotto",
+                    "total_ventas": 34430000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "3",
+                    "createdAt": "2021-06-15T19:26:01.263Z",
+                    "name": "Quiniela Loteka",
+                    "total_ventas": 78870000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "4",
+                    "createdAt": "2021-06-15T10:19:46.352Z",
+                    "name": "Chance Express",
+                    "total_ventas": 47740000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "5",
+                    "createdAt": "2021-06-15T17:45:11.593Z",
+                    "name": "El Extra",
+                    "total_ventas": 17710000,
+                    "meta": 10000000
+                }
+            ]
+        },
+        {
+            "id": "17",
+            "createdAt": "2021-06-15T23:07:34.072Z",
+            "name": 25,
+            "total_ventas": 76730213.00,
+            "procentaje": 69,
+            "productos": [
+                {
+                    "id": "1",
+                    "type": "1",
+                    "name": "Tradicionales",
+                    "promedio": 53,
+                    "meta": 5,
+                    "juegos": [],
+                    "createdAt": "2021-06-15T09:05:33.646Z"
+                },
+                {
+                    "id": "2",
+                    "type": "2",
+                    "name": "No Tradicionales",
+                    "promedio": 6,
+                    "meta": 74,
+                    "juegos": [],
+                    "createdAt": "2021-06-15T20:04:56.248Z"
+                },
+                {
+                    "id": "3",
+                    "type": "3",
+                    "name": "Reacargas",
+                    "promedio": 10,
+                    "meta": 25,
+                    "juegos": [],
+                    "createdAt": "2021-06-15T17:09:55.564Z"
+                }
+            ],
+            "juegos": [
+                {
+                    "id": "1",
+                    "createdAt": "2021-06-16T03:09:01.829Z",
+                    "name": "Mega Chance",
+                    "total_ventas": 35530000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "2",
+                    "createdAt": "2021-06-15T06:21:22.557Z",
+                    "name": "Mega Lotto",
+                    "total_ventas": 34430000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "3",
+                    "createdAt": "2021-06-15T19:26:01.263Z",
+                    "name": "Quiniela Loteka",
+                    "total_ventas": 78870000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "4",
+                    "createdAt": "2021-06-15T10:19:46.352Z",
+                    "name": "Chance Express",
+                    "total_ventas": 47740000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "5",
+                    "createdAt": "2021-06-15T17:45:11.593Z",
+                    "name": "El Extra",
+                    "total_ventas": 17710000,
+                    "meta": 10000000
+                }
+            ]
+        },
+        {
+            "id": "18",
+            "createdAt": "2021-06-15T22:26:12.886Z",
+            "name": 3,
+            "total_ventas": 7730213.00,
+            "procentaje": 8,
+            "productos": [
+                {
+                    "id": "1",
+                    "type": "1",
+                    "name": "Tradicionales",
+                    "promedio": 53,
+                    "meta": 5,
+                    "juegos": [],
+                    "createdAt": "2021-06-15T09:05:33.646Z"
+                },
+                {
+                    "id": "2",
+                    "type": "2",
+                    "name": "No Tradicionales",
+                    "promedio": 6,
+                    "meta": 74,
+                    "juegos": [],
+                    "createdAt": "2021-06-15T20:04:56.248Z"
+                },
+                {
+                    "id": "3",
+                    "type": "3",
+                    "name": "Reacargas",
+                    "promedio": 10,
+                    "meta": 25,
+                    "juegos": [],
+                    "createdAt": "2021-06-15T17:09:55.564Z"
+                }
+            ],
+            "juegos": [
+                {
+                    "id": "1",
+                    "createdAt": "2021-06-16T03:09:01.829Z",
+                    "name": "Mega Chance",
+                    "total_ventas": 35530000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "2",
+                    "createdAt": "2021-06-15T06:21:22.557Z",
+                    "name": "Mega Lotto",
+                    "total_ventas": 34430000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "3",
+                    "createdAt": "2021-06-15T19:26:01.263Z",
+                    "name": "Quiniela Loteka",
+                    "total_ventas": 78870000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "4",
+                    "createdAt": "2021-06-15T10:19:46.352Z",
+                    "name": "Chance Express",
+                    "total_ventas": 47740000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "5",
+                    "createdAt": "2021-06-15T17:45:11.593Z",
+                    "name": "El Extra",
+                    "total_ventas": 17710000,
+                    "meta": 10000000
+                }
+            ]
+        },
+        {
+            "id": "19",
+            "createdAt": "2021-06-16T01:29:48.060Z",
+            "name": 25,
+            "total_ventas": 35530213.00,
+            "procentaje": 66,
+            "productos": [
+                {
+                    "id": "1",
+                    "type": "1",
+                    "name": "Tradicionales",
+                    "promedio": 53,
+                    "meta": 5,
+                    "juegos": [],
+                    "createdAt": "2021-06-15T09:05:33.646Z"
+                },
+                {
+                    "id": "2",
+                    "type": "2",
+                    "name": "No Tradicionales",
+                    "promedio": 6,
+                    "meta": 74,
+                    "juegos": [],
+                    "createdAt": "2021-06-15T20:04:56.248Z"
+                },
+                {
+                    "id": "3",
+                    "type": "3",
+                    "name": "Reacargas",
+                    "promedio": 10,
+                    "meta": 25,
+                    "juegos": [],
+                    "createdAt": "2021-06-15T17:09:55.564Z"
+                }
+            ],
+            "juegos": [
+                {
+                    "id": "1",
+                    "createdAt": "2021-06-16T03:09:01.829Z",
+                    "name": "Mega Chance",
+                    "total_ventas": 35530000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "2",
+                    "createdAt": "2021-06-15T06:21:22.557Z",
+                    "name": "Mega Lotto",
+                    "total_ventas": 34430000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "3",
+                    "createdAt": "2021-06-15T19:26:01.263Z",
+                    "name": "Quiniela Loteka",
+                    "total_ventas": 78870000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "4",
+                    "createdAt": "2021-06-15T10:19:46.352Z",
+                    "name": "Chance Express",
+                    "total_ventas": 47740000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "5",
+                    "createdAt": "2021-06-15T17:45:11.593Z",
+                    "name": "El Extra",
+                    "total_ventas": 17710000,
+                    "meta": 10000000
+                }
+            ]
+        },
+        {
+            "id": "20",
+            "createdAt": "2021-06-15T18:11:10.747Z",
+            "name": 10,
+            "total_ventas": 28330213.00,
+            "procentaje": 10,
+            "productos": [
+                {
+                    "id": "1",
+                    "type": "1",
+                    "name": "Tradicionales",
+                    "promedio": 53,
+                    "meta": 5,
+                    "juegos": [],
+                    "createdAt": "2021-06-15T09:05:33.646Z"
+                },
+                {
+                    "id": "2",
+                    "type": "2",
+                    "name": "No Tradicionales",
+                    "promedio": 6,
+                    "meta": 74,
+                    "juegos": [],
+                    "createdAt": "2021-06-15T20:04:56.248Z"
+                },
+                {
+                    "id": "3",
+                    "type": "3",
+                    "name": "Reacargas",
+                    "promedio": 10,
+                    "meta": 25,
+                    "juegos": [],
+                    "createdAt": "2021-06-15T17:09:55.564Z"
+                }
+            ],
+            "juegos": [
+                {
+                    "id": "1",
+                    "createdAt": "2021-06-16T03:09:01.829Z",
+                    "name": "Mega Chance",
+                    "total_ventas": 35530000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "2",
+                    "createdAt": "2021-06-15T06:21:22.557Z",
+                    "name": "Mega Lotto",
+                    "total_ventas": 34430000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "3",
+                    "createdAt": "2021-06-15T19:26:01.263Z",
+                    "name": "Quiniela Loteka",
+                    "total_ventas": 78870000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "4",
+                    "createdAt": "2021-06-15T10:19:46.352Z",
+                    "name": "Chance Express",
+                    "total_ventas": 47740000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "5",
+                    "createdAt": "2021-06-15T17:45:11.593Z",
+                    "name": "El Extra",
+                    "total_ventas": 17710000,
+                    "meta": 10000000
+                }
+            ]
+        },
+        {
+            "id": "21",
+            "createdAt": "2021-06-15T14:49:31.927Z",
+            "name": 66,
+            "total_ventas": 98230213.00,
+            "procentaje": 18,
+            "productos": [
+                {
+                    "id": "1",
+                    "type": "1",
+                    "name": "Tradicionales",
+                    "promedio": 53,
+                    "meta": 5,
+                    "juegos": [],
+                    "createdAt": "2021-06-15T09:05:33.646Z"
+                },
+                {
+                    "id": "2",
+                    "type": "2",
+                    "name": "No Tradicionales",
+                    "promedio": 6,
+                    "meta": 74,
+                    "juegos": [],
+                    "createdAt": "2021-06-15T20:04:56.248Z"
+                },
+                {
+                    "id": "3",
+                    "type": "3",
+                    "name": "Reacargas",
+                    "promedio": 10,
+                    "meta": 25,
+                    "juegos": [],
+                    "createdAt": "2021-06-15T17:09:55.564Z"
+                }
+            ],
+            "juegos": [
+                {
+                    "id": "1",
+                    "createdAt": "2021-06-16T03:09:01.829Z",
+                    "name": "Mega Chance",
+                    "total_ventas": 35530000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "2",
+                    "createdAt": "2021-06-15T06:21:22.557Z",
+                    "name": "Mega Lotto",
+                    "total_ventas": 34430000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "3",
+                    "createdAt": "2021-06-15T19:26:01.263Z",
+                    "name": "Quiniela Loteka",
+                    "total_ventas": 78870000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "4",
+                    "createdAt": "2021-06-15T10:19:46.352Z",
+                    "name": "Chance Express",
+                    "total_ventas": 47740000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "5",
+                    "createdAt": "2021-06-15T17:45:11.593Z",
+                    "name": "El Extra",
+                    "total_ventas": 17710000,
+                    "meta": 10000000
+                }
+            ]
+        },
+        {
+            "id": "22",
+            "createdAt": "2021-06-16T01:40:21.167Z",
+            "name": 61,
+            "total_ventas": 78230213.00,
+            "procentaje": 83,
+            "productos": [
+                {
+                    "id": "1",
+                    "type": "1",
+                    "name": "Tradicionales",
+                    "promedio": 53,
+                    "meta": 5,
+                    "juegos": [],
+                    "createdAt": "2021-06-15T09:05:33.646Z"
+                },
+                {
+                    "id": "2",
+                    "type": "2",
+                    "name": "No Tradicionales",
+                    "promedio": 6,
+                    "meta": 74,
+                    "juegos": [],
+                    "createdAt": "2021-06-15T20:04:56.248Z"
+                },
+                {
+                    "id": "3",
+                    "type": "3",
+                    "name": "Reacargas",
+                    "promedio": 10,
+                    "meta": 25,
+                    "juegos": [],
+                    "createdAt": "2021-06-15T17:09:55.564Z"
+                }
+            ],
+            "juegos": [
+                {
+                    "id": "1",
+                    "createdAt": "2021-06-16T03:09:01.829Z",
+                    "name": "Mega Chance",
+                    "total_ventas": 35530000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "2",
+                    "createdAt": "2021-06-15T06:21:22.557Z",
+                    "name": "Mega Lotto",
+                    "total_ventas": 34430000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "3",
+                    "createdAt": "2021-06-15T19:26:01.263Z",
+                    "name": "Quiniela Loteka",
+                    "total_ventas": 78870000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "4",
+                    "createdAt": "2021-06-15T10:19:46.352Z",
+                    "name": "Chance Express",
+                    "total_ventas": 47740000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "5",
+                    "createdAt": "2021-06-15T17:45:11.593Z",
+                    "name": "El Extra",
+                    "total_ventas": 17710000,
+                    "meta": 10000000
+                }
+            ]
+        },
+        {
+            "id": "23",
+            "createdAt": "2021-06-15T07:48:27.554Z",
+            "name": 41,
+            "total_ventas": 90730213.00,
+            "procentaje": 94,
+            "productos": [
+                {
+                    "id": "1",
+                    "type": "1",
+                    "name": "Tradicionales",
+                    "promedio": 53,
+                    "meta": 5,
+                    "juegos": [],
+                    "createdAt": "2021-06-15T09:05:33.646Z"
+                },
+                {
+                    "id": "2",
+                    "type": "2",
+                    "name": "No Tradicionales",
+                    "promedio": 6,
+                    "meta": 74,
+                    "juegos": [],
+                    "createdAt": "2021-06-15T20:04:56.248Z"
+                },
+                {
+                    "id": "3",
+                    "type": "3",
+                    "name": "Reacargas",
+                    "promedio": 10,
+                    "meta": 25,
+                    "juegos": [],
+                    "createdAt": "2021-06-15T17:09:55.564Z"
+                }
+            ],
+            "juegos": [
+                {
+                    "id": "1",
+                    "createdAt": "2021-06-16T03:09:01.829Z",
+                    "name": "Mega Chance",
+                    "total_ventas": 35530000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "2",
+                    "createdAt": "2021-06-15T06:21:22.557Z",
+                    "name": "Mega Lotto",
+                    "total_ventas": 34430000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "3",
+                    "createdAt": "2021-06-15T19:26:01.263Z",
+                    "name": "Quiniela Loteka",
+                    "total_ventas": 78870000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "4",
+                    "createdAt": "2021-06-15T10:19:46.352Z",
+                    "name": "Chance Express",
+                    "total_ventas": 47740000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "5",
+                    "createdAt": "2021-06-15T17:45:11.593Z",
+                    "name": "El Extra",
+                    "total_ventas": 17710000,
+                    "meta": 10000000
+                }
+            ]
+        },
+        {
+            "id": "24",
+            "createdAt": "2021-06-15T18:50:38.965Z",
+            "name": 7,
+            "total_ventas": 730213.00,
+            "procentaje": 17,
+            "productos": [
+                {
+                    "id": "1",
+                    "type": "1",
+                    "name": "Tradicionales",
+                    "promedio": 53,
+                    "meta": 5,
+                    "juegos": [],
+                    "createdAt": "2021-06-15T09:05:33.646Z"
+                },
+                {
+                    "id": "2",
+                    "type": "2",
+                    "name": "No Tradicionales",
+                    "promedio": 6,
+                    "meta": 74,
+                    "juegos": [],
+                    "createdAt": "2021-06-15T20:04:56.248Z"
+                },
+                {
+                    "id": "3",
+                    "type": "3",
+                    "name": "Reacargas",
+                    "promedio": 10,
+                    "meta": 25,
+                    "juegos": [],
+                    "createdAt": "2021-06-15T17:09:55.564Z"
+                }
+            ],
+            "juegos": [
+                {
+                    "id": "1",
+                    "createdAt": "2021-06-16T03:09:01.829Z",
+                    "name": "Mega Chance",
+                    "total_ventas": 35530000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "2",
+                    "createdAt": "2021-06-15T06:21:22.557Z",
+                    "name": "Mega Lotto",
+                    "total_ventas": 34430000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "3",
+                    "createdAt": "2021-06-15T19:26:01.263Z",
+                    "name": "Quiniela Loteka",
+                    "total_ventas": 78870000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "4",
+                    "createdAt": "2021-06-15T10:19:46.352Z",
+                    "name": "Chance Express",
+                    "total_ventas": 47740000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "5",
+                    "createdAt": "2021-06-15T17:45:11.593Z",
+                    "name": "El Extra",
+                    "total_ventas": 17710000,
+                    "meta": 10000000
+                }
+            ]
+        },
+        {
+            "id": "25",
+            "createdAt": "2021-06-15T21:28:00.398Z",
+            "name": 65,
+            "total_ventas": 85530213.00,
+            "procentaje": 71,
+            "productos": [
+                {
+                    "id": "1",
+                    "type": "1",
+                    "name": "Tradicionales",
+                    "promedio": 53,
+                    "meta": 5,
+                    "juegos": [],
+                    "createdAt": "2021-06-15T09:05:33.646Z"
+                },
+                {
+                    "id": "2",
+                    "type": "2",
+                    "name": "No Tradicionales",
+                    "promedio": 6,
+                    "meta": 74,
+                    "juegos": [],
+                    "createdAt": "2021-06-15T20:04:56.248Z"
+                },
+                {
+                    "id": "3",
+                    "type": "3",
+                    "name": "Reacargas",
+                    "promedio": 10,
+                    "meta": 25,
+                    "juegos": [],
+                    "createdAt": "2021-06-15T17:09:55.564Z"
+                }
+            ],
+            "juegos": [
+                {
+                    "id": "1",
+                    "createdAt": "2021-06-16T03:09:01.829Z",
+                    "name": "Mega Chance",
+                    "total_ventas": 35530000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "2",
+                    "createdAt": "2021-06-15T06:21:22.557Z",
+                    "name": "Mega Lotto",
+                    "total_ventas": 34430000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "3",
+                    "createdAt": "2021-06-15T19:26:01.263Z",
+                    "name": "Quiniela Loteka",
+                    "total_ventas": 78870000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "4",
+                    "createdAt": "2021-06-15T10:19:46.352Z",
+                    "name": "Chance Express",
+                    "total_ventas": 47740000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "5",
+                    "createdAt": "2021-06-15T17:45:11.593Z",
+                    "name": "El Extra",
+                    "total_ventas": 17710000,
+                    "meta": 10000000
+                }
+            ]
+        },
+        {
+            "id": "26",
+            "createdAt": "2021-06-15T13:09:21.099Z",
+            "name": 78,
+            "total_ventas": 65930213.00,
+            "procentaje": 46,
+            "productos": [
+                {
+                    "id": "1",
+                    "type": "1",
+                    "name": "Tradicionales",
+                    "promedio": 53,
+                    "meta": 5,
+                    "juegos": [],
+                    "createdAt": "2021-06-15T09:05:33.646Z"
+                },
+                {
+                    "id": "2",
+                    "type": "2",
+                    "name": "No Tradicionales",
+                    "promedio": 6,
+                    "meta": 74,
+                    "juegos": [],
+                    "createdAt": "2021-06-15T20:04:56.248Z"
+                },
+                {
+                    "id": "3",
+                    "type": "3",
+                    "name": "Reacargas",
+                    "promedio": 10,
+                    "meta": 25,
+                    "juegos": [],
+                    "createdAt": "2021-06-15T17:09:55.564Z"
+                }
+            ],
+            "juegos": [
+                {
+                    "id": "1",
+                    "createdAt": "2021-06-16T03:09:01.829Z",
+                    "name": "Mega Chance",
+                    "total_ventas": 35530000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "2",
+                    "createdAt": "2021-06-15T06:21:22.557Z",
+                    "name": "Mega Lotto",
+                    "total_ventas": 34430000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "3",
+                    "createdAt": "2021-06-15T19:26:01.263Z",
+                    "name": "Quiniela Loteka",
+                    "total_ventas": 78870000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "4",
+                    "createdAt": "2021-06-15T10:19:46.352Z",
+                    "name": "Chance Express",
+                    "total_ventas": 47740000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "5",
+                    "createdAt": "2021-06-15T17:45:11.593Z",
+                    "name": "El Extra",
+                    "total_ventas": 17710000,
+                    "meta": 10000000
+                }
+            ]
+        },
+        {
+            "id": "27",
+            "createdAt": "2021-06-15T19:38:54.231Z",
+            "name": 100,
+            "total_ventas": 92830213.00,
+            "procentaje": 24,
+            "productos": [
+                {
+                    "id": "1",
+                    "type": "1",
+                    "name": "Tradicionales",
+                    "promedio": 53,
+                    "meta": 5,
+                    "juegos": [],
+                    "createdAt": "2021-06-15T09:05:33.646Z"
+                },
+                {
+                    "id": "2",
+                    "type": "2",
+                    "name": "No Tradicionales",
+                    "promedio": 6,
+                    "meta": 74,
+                    "juegos": [],
+                    "createdAt": "2021-06-15T20:04:56.248Z"
+                },
+                {
+                    "id": "3",
+                    "type": "3",
+                    "name": "Reacargas",
+                    "promedio": 10,
+                    "meta": 25,
+                    "juegos": [],
+                    "createdAt": "2021-06-15T17:09:55.564Z"
+                }
+            ],
+            "juegos": [
+                {
+                    "id": "1",
+                    "createdAt": "2021-06-16T03:09:01.829Z",
+                    "name": "Mega Chance",
+                    "total_ventas": 35530000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "2",
+                    "createdAt": "2021-06-15T06:21:22.557Z",
+                    "name": "Mega Lotto",
+                    "total_ventas": 34430000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "3",
+                    "createdAt": "2021-06-15T19:26:01.263Z",
+                    "name": "Quiniela Loteka",
+                    "total_ventas": 78870000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "4",
+                    "createdAt": "2021-06-15T10:19:46.352Z",
+                    "name": "Chance Express",
+                    "total_ventas": 47740000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "5",
+                    "createdAt": "2021-06-15T17:45:11.593Z",
+                    "name": "El Extra",
+                    "total_ventas": 17710000,
+                    "meta": 10000000
+                }
+            ]
+        },
+        {
+            "id": "28",
+            "createdAt": "2021-06-15T19:27:50.291Z",
+            "name": 24,
+            "total_ventas": 73530213.00,
+            "procentaje": 55,
+            "productos": [
+                {
+                    "id": "1",
+                    "type": "1",
+                    "name": "Tradicionales",
+                    "promedio": 53,
+                    "meta": 5,
+                    "juegos": [],
+                    "createdAt": "2021-06-15T09:05:33.646Z"
+                },
+                {
+                    "id": "2",
+                    "type": "2",
+                    "name": "No Tradicionales",
+                    "promedio": 6,
+                    "meta": 74,
+                    "juegos": [],
+                    "createdAt": "2021-06-15T20:04:56.248Z"
+                },
+                {
+                    "id": "3",
+                    "type": "3",
+                    "name": "Reacargas",
+                    "promedio": 10,
+                    "meta": 25,
+                    "juegos": [],
+                    "createdAt": "2021-06-15T17:09:55.564Z"
+                }
+            ],
+            "juegos": [
+                {
+                    "id": "1",
+                    "createdAt": "2021-06-16T03:09:01.829Z",
+                    "name": "Mega Chance",
+                    "total_ventas": 35530000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "2",
+                    "createdAt": "2021-06-15T06:21:22.557Z",
+                    "name": "Mega Lotto",
+                    "total_ventas": 34430000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "3",
+                    "createdAt": "2021-06-15T19:26:01.263Z",
+                    "name": "Quiniela Loteka",
+                    "total_ventas": 78870000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "4",
+                    "createdAt": "2021-06-15T10:19:46.352Z",
+                    "name": "Chance Express",
+                    "total_ventas": 47740000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "5",
+                    "createdAt": "2021-06-15T17:45:11.593Z",
+                    "name": "El Extra",
+                    "total_ventas": 17710000,
+                    "meta": 10000000
+                }
+            ]
+        },
+        {
+            "id": "29",
+            "createdAt": "2021-06-15T19:38:37.499Z",
+            "name": 27,
+            "total_ventas": 56730213.00,
+            "procentaje": 6,
+            "productos": [
+                {
+                    "id": "1",
+                    "type": "1",
+                    "name": "Tradicionales",
+                    "promedio": 53,
+                    "meta": 5,
+                    "juegos": [],
+                    "createdAt": "2021-06-15T09:05:33.646Z"
+                },
+                {
+                    "id": "2",
+                    "type": "2",
+                    "name": "No Tradicionales",
+                    "promedio": 6,
+                    "meta": 74,
+                    "juegos": [],
+                    "createdAt": "2021-06-15T20:04:56.248Z"
+                },
+                {
+                    "id": "3",
+                    "type": "3",
+                    "name": "Reacargas",
+                    "promedio": 10,
+                    "meta": 25,
+                    "juegos": [],
+                    "createdAt": "2021-06-15T17:09:55.564Z"
+                }
+            ],
+            "juegos": [
+                {
+                    "id": "1",
+                    "createdAt": "2021-06-16T03:09:01.829Z",
+                    "name": "Mega Chance",
+                    "total_ventas": 35530000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "2",
+                    "createdAt": "2021-06-15T06:21:22.557Z",
+                    "name": "Mega Lotto",
+                    "total_ventas": 34430000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "3",
+                    "createdAt": "2021-06-15T19:26:01.263Z",
+                    "name": "Quiniela Loteka",
+                    "total_ventas": 78870000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "4",
+                    "createdAt": "2021-06-15T10:19:46.352Z",
+                    "name": "Chance Express",
+                    "total_ventas": 47740000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "5",
+                    "createdAt": "2021-06-15T17:45:11.593Z",
+                    "name": "El Extra",
+                    "total_ventas": 17710000,
+                    "meta": 10000000
+                }
+            ]
+        },
+        {
+            "id": "30",
+            "createdAt": "2021-06-15T06:58:31.923Z",
+            "name": 26,
+            "total_ventas": 34130213.00,
+            "procentaje": 59,
+            "productos": [
+                {
+                    "id": "1",
+                    "type": "1",
+                    "name": "Tradicionales",
+                    "promedio": 53,
+                    "meta": 5,
+                    "juegos": [],
+                    "createdAt": "2021-06-15T09:05:33.646Z"
+                },
+                {
+                    "id": "2",
+                    "type": "2",
+                    "name": "No Tradicionales",
+                    "promedio": 6,
+                    "meta": 74,
+                    "juegos": [],
+                    "createdAt": "2021-06-15T20:04:56.248Z"
+                },
+                {
+                    "id": "3",
+                    "type": "3",
+                    "name": "Reacargas",
+                    "promedio": 10,
+                    "meta": 25,
+                    "juegos": [],
+                    "createdAt": "2021-06-15T17:09:55.564Z"
+                }
+            ],
+            "juegos": [
+                {
+                    "id": "1",
+                    "createdAt": "2021-06-16T03:09:01.829Z",
+                    "name": "Mega Chance",
+                    "total_ventas": 35530000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "2",
+                    "createdAt": "2021-06-15T06:21:22.557Z",
+                    "name": "Mega Lotto",
+                    "total_ventas": 34430000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "3",
+                    "createdAt": "2021-06-15T19:26:01.263Z",
+                    "name": "Quiniela Loteka",
+                    "total_ventas": 78870000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "4",
+                    "createdAt": "2021-06-15T10:19:46.352Z",
+                    "name": "Chance Express",
+                    "total_ventas": 47740000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "5",
+                    "createdAt": "2021-06-15T17:45:11.593Z",
+                    "name": "El Extra",
+                    "total_ventas": 17710000,
+                    "meta": 10000000
+                }
+            ]
+        },
+        {
+            "id": "31",
+            "createdAt": "2021-06-16T03:42:39.750Z",
+            "name": 85,
+            "total_ventas": 21930213.00,
+            "procentaje": 93,
+            "productos": [
+                {
+                    "id": "1",
+                    "type": "1",
+                    "name": "Tradicionales",
+                    "promedio": 53,
+                    "meta": 5,
+                    "juegos": [],
+                    "createdAt": "2021-06-15T09:05:33.646Z"
+                },
+                {
+                    "id": "2",
+                    "type": "2",
+                    "name": "No Tradicionales",
+                    "promedio": 6,
+                    "meta": 74,
+                    "juegos": [],
+                    "createdAt": "2021-06-15T20:04:56.248Z"
+                },
+                {
+                    "id": "3",
+                    "type": "3",
+                    "name": "Reacargas",
+                    "promedio": 10,
+                    "meta": 25,
+                    "juegos": [],
+                    "createdAt": "2021-06-15T17:09:55.564Z"
+                }
+            ],
+            "juegos": [
+                {
+                    "id": "1",
+                    "createdAt": "2021-06-16T03:09:01.829Z",
+                    "name": "Mega Chance",
+                    "total_ventas": 35530000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "2",
+                    "createdAt": "2021-06-15T06:21:22.557Z",
+                    "name": "Mega Lotto",
+                    "total_ventas": 34430000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "3",
+                    "createdAt": "2021-06-15T19:26:01.263Z",
+                    "name": "Quiniela Loteka",
+                    "total_ventas": 78870000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "4",
+                    "createdAt": "2021-06-15T10:19:46.352Z",
+                    "name": "Chance Express",
+                    "total_ventas": 47740000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "5",
+                    "createdAt": "2021-06-15T17:45:11.593Z",
+                    "name": "El Extra",
+                    "total_ventas": 17710000,
+                    "meta": 10000000
+                }
+            ]
+        },
+        {
+            "id": "32",
+            "createdAt": "2021-06-15T19:27:16.456Z",
+            "name": 19,
+            "total_ventas": 59130213.00,
+            "procentaje": 31,
+            "productos": [
+                {
+                    "id": "1",
+                    "type": "1",
+                    "name": "Tradicionales",
+                    "promedio": 53,
+                    "meta": 5,
+                    "juegos": [],
+                    "createdAt": "2021-06-15T09:05:33.646Z"
+                },
+                {
+                    "id": "2",
+                    "type": "2",
+                    "name": "No Tradicionales",
+                    "promedio": 6,
+                    "meta": 74,
+                    "juegos": [],
+                    "createdAt": "2021-06-15T20:04:56.248Z"
+                },
+                {
+                    "id": "3",
+                    "type": "3",
+                    "name": "Reacargas",
+                    "promedio": 10,
+                    "meta": 25,
+                    "juegos": [],
+                    "createdAt": "2021-06-15T17:09:55.564Z"
+                }
+            ],
+            "juegos": [
+                {
+                    "id": "1",
+                    "createdAt": "2021-06-16T03:09:01.829Z",
+                    "name": "Mega Chance",
+                    "total_ventas": 35530000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "2",
+                    "createdAt": "2021-06-15T06:21:22.557Z",
+                    "name": "Mega Lotto",
+                    "total_ventas": 34430000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "3",
+                    "createdAt": "2021-06-15T19:26:01.263Z",
+                    "name": "Quiniela Loteka",
+                    "total_ventas": 78870000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "4",
+                    "createdAt": "2021-06-15T10:19:46.352Z",
+                    "name": "Chance Express",
+                    "total_ventas": 47740000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "5",
+                    "createdAt": "2021-06-15T17:45:11.593Z",
+                    "name": "El Extra",
+                    "total_ventas": 17710000,
+                    "meta": 10000000
+                }
+            ]
+        },
+        {
+            "id": "33",
+            "createdAt": "2021-06-15T13:19:51.626Z",
+            "name": 92,
+            "total_ventas": 76830213.00,
+            "procentaje": 69,
+            "productos": [
+                {
+                    "id": "1",
+                    "type": "1",
+                    "name": "Tradicionales",
+                    "promedio": 53,
+                    "meta": 5,
+                    "juegos": [],
+                    "createdAt": "2021-06-15T09:05:33.646Z"
+                },
+                {
+                    "id": "2",
+                    "type": "2",
+                    "name": "No Tradicionales",
+                    "promedio": 6,
+                    "meta": 74,
+                    "juegos": [],
+                    "createdAt": "2021-06-15T20:04:56.248Z"
+                },
+                {
+                    "id": "3",
+                    "type": "3",
+                    "name": "Reacargas",
+                    "promedio": 10,
+                    "meta": 25,
+                    "juegos": [],
+                    "createdAt": "2021-06-15T17:09:55.564Z"
+                }
+            ],
+            "juegos": [
+                {
+                    "id": "1",
+                    "createdAt": "2021-06-16T03:09:01.829Z",
+                    "name": "Mega Chance",
+                    "total_ventas": 35530000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "2",
+                    "createdAt": "2021-06-15T06:21:22.557Z",
+                    "name": "Mega Lotto",
+                    "total_ventas": 34430000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "3",
+                    "createdAt": "2021-06-15T19:26:01.263Z",
+                    "name": "Quiniela Loteka",
+                    "total_ventas": 78870000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "4",
+                    "createdAt": "2021-06-15T10:19:46.352Z",
+                    "name": "Chance Express",
+                    "total_ventas": 47740000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "5",
+                    "createdAt": "2021-06-15T17:45:11.593Z",
+                    "name": "El Extra",
+                    "total_ventas": 17710000,
+                    "meta": 10000000
+                }
+            ]
+        },
+        {
+            "id": "34",
+            "createdAt": "2021-06-15T16:15:18.157Z",
+            "name": 98,
+            "total_ventas": 72730213.00,
+            "procentaje": 45,
+            "productos": [
+                {
+                    "id": "1",
+                    "type": "1",
+                    "name": "Tradicionales",
+                    "promedio": 53,
+                    "meta": 5,
+                    "juegos": [],
+                    "createdAt": "2021-06-15T09:05:33.646Z"
+                },
+                {
+                    "id": "2",
+                    "type": "2",
+                    "name": "No Tradicionales",
+                    "promedio": 6,
+                    "meta": 74,
+                    "juegos": [],
+                    "createdAt": "2021-06-15T20:04:56.248Z"
+                },
+                {
+                    "id": "3",
+                    "type": "3",
+                    "name": "Reacargas",
+                    "promedio": 10,
+                    "meta": 25,
+                    "juegos": [],
+                    "createdAt": "2021-06-15T17:09:55.564Z"
+                }
+            ],
+            "juegos": [
+                {
+                    "id": "1",
+                    "createdAt": "2021-06-16T03:09:01.829Z",
+                    "name": "Mega Chance",
+                    "total_ventas": 35530000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "2",
+                    "createdAt": "2021-06-15T06:21:22.557Z",
+                    "name": "Mega Lotto",
+                    "total_ventas": 34430000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "3",
+                    "createdAt": "2021-06-15T19:26:01.263Z",
+                    "name": "Quiniela Loteka",
+                    "total_ventas": 78870000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "4",
+                    "createdAt": "2021-06-15T10:19:46.352Z",
+                    "name": "Chance Express",
+                    "total_ventas": 47740000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "5",
+                    "createdAt": "2021-06-15T17:45:11.593Z",
+                    "name": "El Extra",
+                    "total_ventas": 17710000,
+                    "meta": 10000000
+                }
+            ]
+        },
+        {
+            "id": "35",
+            "createdAt": "2021-06-15T09:24:47.656Z",
+            "name": 26,
+            "total_ventas": 37630213.00,
+            "procentaje": 89,
+            "productos": [
+                {
+                    "id": "1",
+                    "type": "1",
+                    "name": "Tradicionales",
+                    "promedio": 53,
+                    "meta": 5,
+                    "juegos": [],
+                    "createdAt": "2021-06-15T09:05:33.646Z"
+                },
+                {
+                    "id": "2",
+                    "type": "2",
+                    "name": "No Tradicionales",
+                    "promedio": 6,
+                    "meta": 74,
+                    "juegos": [],
+                    "createdAt": "2021-06-15T20:04:56.248Z"
+                },
+                {
+                    "id": "3",
+                    "type": "3",
+                    "name": "Reacargas",
+                    "promedio": 10,
+                    "meta": 25,
+                    "juegos": [],
+                    "createdAt": "2021-06-15T17:09:55.564Z"
+                }
+            ],
+            "juegos": [
+                {
+                    "id": "1",
+                    "createdAt": "2021-06-16T03:09:01.829Z",
+                    "name": "Mega Chance",
+                    "total_ventas": 35530000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "2",
+                    "createdAt": "2021-06-15T06:21:22.557Z",
+                    "name": "Mega Lotto",
+                    "total_ventas": 34430000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "3",
+                    "createdAt": "2021-06-15T19:26:01.263Z",
+                    "name": "Quiniela Loteka",
+                    "total_ventas": 78870000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "4",
+                    "createdAt": "2021-06-15T10:19:46.352Z",
+                    "name": "Chance Express",
+                    "total_ventas": 47740000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "5",
+                    "createdAt": "2021-06-15T17:45:11.593Z",
+                    "name": "El Extra",
+                    "total_ventas": 17710000,
+                    "meta": 10000000
+                }
+            ]
+        },
+        {
+            "id": "36",
+            "createdAt": "2021-06-15T19:38:53.094Z",
+            "name": 22,
+            "total_ventas": 65430213.00,
+            "procentaje": 82,
+            "productos": [
+                {
+                    "id": "1",
+                    "type": "1",
+                    "name": "Tradicionales",
+                    "promedio": 53,
+                    "meta": 5,
+                    "juegos": [],
+                    "createdAt": "2021-06-15T09:05:33.646Z"
+                },
+                {
+                    "id": "2",
+                    "type": "2",
+                    "name": "No Tradicionales",
+                    "promedio": 6,
+                    "meta": 74,
+                    "juegos": [],
+                    "createdAt": "2021-06-15T20:04:56.248Z"
+                },
+                {
+                    "id": "3",
+                    "type": "3",
+                    "name": "Reacargas",
+                    "promedio": 10,
+                    "meta": 25,
+                    "juegos": [],
+                    "createdAt": "2021-06-15T17:09:55.564Z"
+                }
+            ],
+            "juegos": [
+                {
+                    "id": "1",
+                    "createdAt": "2021-06-16T03:09:01.829Z",
+                    "name": "Mega Chance",
+                    "total_ventas": 35530000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "2",
+                    "createdAt": "2021-06-15T06:21:22.557Z",
+                    "name": "Mega Lotto",
+                    "total_ventas": 34430000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "3",
+                    "createdAt": "2021-06-15T19:26:01.263Z",
+                    "name": "Quiniela Loteka",
+                    "total_ventas": 78870000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "4",
+                    "createdAt": "2021-06-15T10:19:46.352Z",
+                    "name": "Chance Express",
+                    "total_ventas": 47740000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "5",
+                    "createdAt": "2021-06-15T17:45:11.593Z",
+                    "name": "El Extra",
+                    "total_ventas": 17710000,
+                    "meta": 10000000
+                }
+            ]
+        },
+        {
+            "id": "37",
+            "createdAt": "2021-06-15T21:27:48.878Z",
+            "name": 23,
+            "total_ventas": 15030213.00,
+            "procentaje": 8,
+            "productos": [
+                {
+                    "id": "1",
+                    "type": "1",
+                    "name": "Tradicionales",
+                    "promedio": 53,
+                    "meta": 5,
+                    "juegos": [],
+                    "createdAt": "2021-06-15T09:05:33.646Z"
+                },
+                {
+                    "id": "2",
+                    "type": "2",
+                    "name": "No Tradicionales",
+                    "promedio": 6,
+                    "meta": 74,
+                    "juegos": [],
+                    "createdAt": "2021-06-15T20:04:56.248Z"
+                },
+                {
+                    "id": "3",
+                    "type": "3",
+                    "name": "Reacargas",
+                    "promedio": 10,
+                    "meta": 25,
+                    "juegos": [],
+                    "createdAt": "2021-06-15T17:09:55.564Z"
+                }
+            ],
+            "juegos": [
+                {
+                    "id": "1",
+                    "createdAt": "2021-06-16T03:09:01.829Z",
+                    "name": "Mega Chance",
+                    "total_ventas": 35530000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "2",
+                    "createdAt": "2021-06-15T06:21:22.557Z",
+                    "name": "Mega Lotto",
+                    "total_ventas": 34430000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "3",
+                    "createdAt": "2021-06-15T19:26:01.263Z",
+                    "name": "Quiniela Loteka",
+                    "total_ventas": 78870000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "4",
+                    "createdAt": "2021-06-15T10:19:46.352Z",
+                    "name": "Chance Express",
+                    "total_ventas": 47740000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "5",
+                    "createdAt": "2021-06-15T17:45:11.593Z",
+                    "name": "El Extra",
+                    "total_ventas": 17710000,
+                    "meta": 10000000
+                }
+            ]
+        },
+        {
+            "id": "38",
+            "createdAt": "2021-06-16T06:21:10.205Z",
+            "name": 56,
+            "total_ventas": 52530213.00,
+            "procentaje": 95,
+            "productos": [
+                {
+                    "id": "1",
+                    "type": "1",
+                    "name": "Tradicionales",
+                    "promedio": 53,
+                    "meta": 5,
+                    "juegos": [],
+                    "createdAt": "2021-06-15T09:05:33.646Z"
+                },
+                {
+                    "id": "2",
+                    "type": "2",
+                    "name": "No Tradicionales",
+                    "promedio": 6,
+                    "meta": 74,
+                    "juegos": [],
+                    "createdAt": "2021-06-15T20:04:56.248Z"
+                },
+                {
+                    "id": "3",
+                    "type": "3",
+                    "name": "Reacargas",
+                    "promedio": 10,
+                    "meta": 25,
+                    "juegos": [],
+                    "createdAt": "2021-06-15T17:09:55.564Z"
+                }
+            ],
+            "juegos": [
+                {
+                    "id": "1",
+                    "createdAt": "2021-06-16T03:09:01.829Z",
+                    "name": "Mega Chance",
+                    "total_ventas": 35530000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "2",
+                    "createdAt": "2021-06-15T06:21:22.557Z",
+                    "name": "Mega Lotto",
+                    "total_ventas": 34430000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "3",
+                    "createdAt": "2021-06-15T19:26:01.263Z",
+                    "name": "Quiniela Loteka",
+                    "total_ventas": 78870000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "4",
+                    "createdAt": "2021-06-15T10:19:46.352Z",
+                    "name": "Chance Express",
+                    "total_ventas": 47740000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "5",
+                    "createdAt": "2021-06-15T17:45:11.593Z",
+                    "name": "El Extra",
+                    "total_ventas": 17710000,
+                    "meta": 10000000
+                }
+            ]
+        },
+        {
+            "id": "39",
+            "createdAt": "2021-06-15T17:00:17.735Z",
+            "name": 83,
+            "total_ventas": 95530213.00,
+            "procentaje": 92,
+            "productos": [
+                {
+                    "id": "1",
+                    "type": "1",
+                    "name": "Tradicionales",
+                    "promedio": 53,
+                    "meta": 5,
+                    "juegos": [],
+                    "createdAt": "2021-06-15T09:05:33.646Z"
+                },
+                {
+                    "id": "2",
+                    "type": "2",
+                    "name": "No Tradicionales",
+                    "promedio": 6,
+                    "meta": 74,
+                    "juegos": [],
+                    "createdAt": "2021-06-15T20:04:56.248Z"
+                },
+                {
+                    "id": "3",
+                    "type": "3",
+                    "name": "Reacargas",
+                    "promedio": 10,
+                    "meta": 25,
+                    "juegos": [],
+                    "createdAt": "2021-06-15T17:09:55.564Z"
+                }
+            ],
+            "juegos": [
+                {
+                    "id": "1",
+                    "createdAt": "2021-06-16T03:09:01.829Z",
+                    "name": "Mega Chance",
+                    "total_ventas": 35530000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "2",
+                    "createdAt": "2021-06-15T06:21:22.557Z",
+                    "name": "Mega Lotto",
+                    "total_ventas": 34430000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "3",
+                    "createdAt": "2021-06-15T19:26:01.263Z",
+                    "name": "Quiniela Loteka",
+                    "total_ventas": 78870000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "4",
+                    "createdAt": "2021-06-15T10:19:46.352Z",
+                    "name": "Chance Express",
+                    "total_ventas": 47740000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "5",
+                    "createdAt": "2021-06-15T17:45:11.593Z",
+                    "name": "El Extra",
+                    "total_ventas": 17710000,
+                    "meta": 10000000
+                }
+            ]
+        },
+        {
+            "id": "40",
+            "createdAt": "2021-06-15T19:36:27.864Z",
+            "name": 13,
+            "total_ventas": 98330213.00,
+            "procentaje": 19,
+            "productos": [
+                {
+                    "id": "1",
+                    "type": "1",
+                    "name": "Tradicionales",
+                    "promedio": 53,
+                    "meta": 5,
+                    "juegos": [],
+                    "createdAt": "2021-06-15T09:05:33.646Z"
+                },
+                {
+                    "id": "2",
+                    "type": "2",
+                    "name": "No Tradicionales",
+                    "promedio": 6,
+                    "meta": 74,
+                    "juegos": [],
+                    "createdAt": "2021-06-15T20:04:56.248Z"
+                },
+                {
+                    "id": "3",
+                    "type": "3",
+                    "name": "Reacargas",
+                    "promedio": 10,
+                    "meta": 25,
+                    "juegos": [],
+                    "createdAt": "2021-06-15T17:09:55.564Z"
+                }
+            ],
+            "juegos": [
+                {
+                    "id": "1",
+                    "createdAt": "2021-06-16T03:09:01.829Z",
+                    "name": "Mega Chance",
+                    "total_ventas": 35530000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "2",
+                    "createdAt": "2021-06-15T06:21:22.557Z",
+                    "name": "Mega Lotto",
+                    "total_ventas": 34430000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "3",
+                    "createdAt": "2021-06-15T19:26:01.263Z",
+                    "name": "Quiniela Loteka",
+                    "total_ventas": 78870000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "4",
+                    "createdAt": "2021-06-15T10:19:46.352Z",
+                    "name": "Chance Express",
+                    "total_ventas": 47740000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "5",
+                    "createdAt": "2021-06-15T17:45:11.593Z",
+                    "name": "El Extra",
+                    "total_ventas": 17710000,
+                    "meta": 10000000
+                }
+            ]
+        },
+        {
+            "id": "41",
+            "createdAt": "2021-06-15T09:39:23.646Z",
+            "name": 42,
+            "total_ventas": 7330213.00,
+            "procentaje": 84,
+            "productos": [
+                {
+                    "id": "1",
+                    "type": "1",
+                    "name": "Tradicionales",
+                    "promedio": 53,
+                    "meta": 5,
+                    "juegos": [],
+                    "createdAt": "2021-06-15T09:05:33.646Z"
+                },
+                {
+                    "id": "2",
+                    "type": "2",
+                    "name": "No Tradicionales",
+                    "promedio": 6,
+                    "meta": 74,
+                    "juegos": [],
+                    "createdAt": "2021-06-15T20:04:56.248Z"
+                },
+                {
+                    "id": "3",
+                    "type": "3",
+                    "name": "Reacargas",
+                    "promedio": 10,
+                    "meta": 25,
+                    "juegos": [],
+                    "createdAt": "2021-06-15T17:09:55.564Z"
+                }
+            ],
+            "juegos": [
+                {
+                    "id": "1",
+                    "createdAt": "2021-06-16T03:09:01.829Z",
+                    "name": "Mega Chance",
+                    "total_ventas": 35530000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "2",
+                    "createdAt": "2021-06-15T06:21:22.557Z",
+                    "name": "Mega Lotto",
+                    "total_ventas": 34430000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "3",
+                    "createdAt": "2021-06-15T19:26:01.263Z",
+                    "name": "Quiniela Loteka",
+                    "total_ventas": 78870000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "4",
+                    "createdAt": "2021-06-15T10:19:46.352Z",
+                    "name": "Chance Express",
+                    "total_ventas": 47740000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "5",
+                    "createdAt": "2021-06-15T17:45:11.593Z",
+                    "name": "El Extra",
+                    "total_ventas": 17710000,
+                    "meta": 10000000
+                }
+            ]
+        },
+        {
+            "id": "42",
+            "createdAt": "2021-06-15T09:41:13.683Z",
+            "name": 64,
+            "total_ventas": 99730213.00,
+            "procentaje": 3,
+            "productos": [
+                {
+                    "id": "1",
+                    "type": "1",
+                    "name": "Tradicionales",
+                    "promedio": 53,
+                    "meta": 5,
+                    "juegos": [],
+                    "createdAt": "2021-06-15T09:05:33.646Z"
+                },
+                {
+                    "id": "2",
+                    "type": "2",
+                    "name": "No Tradicionales",
+                    "promedio": 6,
+                    "meta": 74,
+                    "juegos": [],
+                    "createdAt": "2021-06-15T20:04:56.248Z"
+                },
+                {
+                    "id": "3",
+                    "type": "3",
+                    "name": "Reacargas",
+                    "promedio": 10,
+                    "meta": 25,
+                    "juegos": [],
+                    "createdAt": "2021-06-15T17:09:55.564Z"
+                }
+            ],
+            "juegos": [
+                {
+                    "id": "1",
+                    "createdAt": "2021-06-16T03:09:01.829Z",
+                    "name": "Mega Chance",
+                    "total_ventas": 35530000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "2",
+                    "createdAt": "2021-06-15T06:21:22.557Z",
+                    "name": "Mega Lotto",
+                    "total_ventas": 34430000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "3",
+                    "createdAt": "2021-06-15T19:26:01.263Z",
+                    "name": "Quiniela Loteka",
+                    "total_ventas": 78870000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "4",
+                    "createdAt": "2021-06-15T10:19:46.352Z",
+                    "name": "Chance Express",
+                    "total_ventas": 47740000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "5",
+                    "createdAt": "2021-06-15T17:45:11.593Z",
+                    "name": "El Extra",
+                    "total_ventas": 17710000,
+                    "meta": 10000000
+                }
+            ]
+        },
+        {
+            "id": "43",
+            "createdAt": "2021-06-15T17:43:08.973Z",
+            "name": 89,
+            "total_ventas": 63830213.00,
+            "procentaje": 24,
+            "productos": [
+                {
+                    "id": "1",
+                    "type": "1",
+                    "name": "Tradicionales",
+                    "promedio": 53,
+                    "meta": 5,
+                    "juegos": [],
+                    "createdAt": "2021-06-15T09:05:33.646Z"
+                },
+                {
+                    "id": "2",
+                    "type": "2",
+                    "name": "No Tradicionales",
+                    "promedio": 6,
+                    "meta": 74,
+                    "juegos": [],
+                    "createdAt": "2021-06-15T20:04:56.248Z"
+                },
+                {
+                    "id": "3",
+                    "type": "3",
+                    "name": "Reacargas",
+                    "promedio": 10,
+                    "meta": 25,
+                    "juegos": [],
+                    "createdAt": "2021-06-15T17:09:55.564Z"
+                }
+            ],
+            "juegos": [
+                {
+                    "id": "1",
+                    "createdAt": "2021-06-16T03:09:01.829Z",
+                    "name": "Mega Chance",
+                    "total_ventas": 35530000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "2",
+                    "createdAt": "2021-06-15T06:21:22.557Z",
+                    "name": "Mega Lotto",
+                    "total_ventas": 34430000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "3",
+                    "createdAt": "2021-06-15T19:26:01.263Z",
+                    "name": "Quiniela Loteka",
+                    "total_ventas": 78870000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "4",
+                    "createdAt": "2021-06-15T10:19:46.352Z",
+                    "name": "Chance Express",
+                    "total_ventas": 47740000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "5",
+                    "createdAt": "2021-06-15T17:45:11.593Z",
+                    "name": "El Extra",
+                    "total_ventas": 17710000,
+                    "meta": 10000000
+                }
+            ]
+        },
+        {
+            "id": "44",
+            "createdAt": "2021-06-15T18:40:17.542Z",
+            "name": 94,
+            "total_ventas": 10930213.00,
+            "procentaje": 74,
+            "productos": [
+                {
+                    "id": "1",
+                    "type": "1",
+                    "name": "Tradicionales",
+                    "promedio": 53,
+                    "meta": 5,
+                    "juegos": [],
+                    "createdAt": "2021-06-15T09:05:33.646Z"
+                },
+                {
+                    "id": "2",
+                    "type": "2",
+                    "name": "No Tradicionales",
+                    "promedio": 6,
+                    "meta": 74,
+                    "juegos": [],
+                    "createdAt": "2021-06-15T20:04:56.248Z"
+                },
+                {
+                    "id": "3",
+                    "type": "3",
+                    "name": "Reacargas",
+                    "promedio": 10,
+                    "meta": 25,
+                    "juegos": [],
+                    "createdAt": "2021-06-15T17:09:55.564Z"
+                }
+            ],
+            "juegos": [
+                {
+                    "id": "1",
+                    "createdAt": "2021-06-16T03:09:01.829Z",
+                    "name": "Mega Chance",
+                    "total_ventas": 35530000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "2",
+                    "createdAt": "2021-06-15T06:21:22.557Z",
+                    "name": "Mega Lotto",
+                    "total_ventas": 34430000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "3",
+                    "createdAt": "2021-06-15T19:26:01.263Z",
+                    "name": "Quiniela Loteka",
+                    "total_ventas": 78870000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "4",
+                    "createdAt": "2021-06-15T10:19:46.352Z",
+                    "name": "Chance Express",
+                    "total_ventas": 47740000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "5",
+                    "createdAt": "2021-06-15T17:45:11.593Z",
+                    "name": "El Extra",
+                    "total_ventas": 17710000,
+                    "meta": 10000000
+                }
+            ]
+        },
+        {
+            "id": "45",
+            "createdAt": "2021-06-16T06:06:47.958Z",
+            "name": 11,
+            "total_ventas": 26430213.00,
+            "procentaje": 87,
+            "productos": [
+                {
+                    "id": "1",
+                    "type": "1",
+                    "name": "Tradicionales",
+                    "promedio": 53,
+                    "meta": 5,
+                    "juegos": [],
+                    "createdAt": "2021-06-15T09:05:33.646Z"
+                },
+                {
+                    "id": "2",
+                    "type": "2",
+                    "name": "No Tradicionales",
+                    "promedio": 6,
+                    "meta": 74,
+                    "juegos": [],
+                    "createdAt": "2021-06-15T20:04:56.248Z"
+                },
+                {
+                    "id": "3",
+                    "type": "3",
+                    "name": "Reacargas",
+                    "promedio": 10,
+                    "meta": 25,
+                    "juegos": [],
+                    "createdAt": "2021-06-15T17:09:55.564Z"
+                }
+            ],
+            "juegos": [
+                {
+                    "id": "1",
+                    "createdAt": "2021-06-16T03:09:01.829Z",
+                    "name": "Mega Chance",
+                    "total_ventas": 35530000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "2",
+                    "createdAt": "2021-06-15T06:21:22.557Z",
+                    "name": "Mega Lotto",
+                    "total_ventas": 34430000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "3",
+                    "createdAt": "2021-06-15T19:26:01.263Z",
+                    "name": "Quiniela Loteka",
+                    "total_ventas": 78870000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "4",
+                    "createdAt": "2021-06-15T10:19:46.352Z",
+                    "name": "Chance Express",
+                    "total_ventas": 47740000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "5",
+                    "createdAt": "2021-06-15T17:45:11.593Z",
+                    "name": "El Extra",
+                    "total_ventas": 17710000,
+                    "meta": 10000000
+                }
+            ]
+        },
+        {
+            "id": "46",
+            "createdAt": "2021-06-15T15:43:15.502Z",
+            "name": 13,
+            "total_ventas": 25930213.00,
+            "procentaje": 41,
+            "productos": [
+                {
+                    "id": "1",
+                    "type": "1",
+                    "name": "Tradicionales",
+                    "promedio": 53,
+                    "meta": 5,
+                    "juegos": [],
+                    "createdAt": "2021-06-15T09:05:33.646Z"
+                },
+                {
+                    "id": "2",
+                    "type": "2",
+                    "name": "No Tradicionales",
+                    "promedio": 6,
+                    "meta": 74,
+                    "juegos": [],
+                    "createdAt": "2021-06-15T20:04:56.248Z"
+                },
+                {
+                    "id": "3",
+                    "type": "3",
+                    "name": "Reacargas",
+                    "promedio": 10,
+                    "meta": 25,
+                    "juegos": [],
+                    "createdAt": "2021-06-15T17:09:55.564Z"
+                }
+            ],
+            "juegos": [
+                {
+                    "id": "1",
+                    "createdAt": "2021-06-16T03:09:01.829Z",
+                    "name": "Mega Chance",
+                    "total_ventas": 35530000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "2",
+                    "createdAt": "2021-06-15T06:21:22.557Z",
+                    "name": "Mega Lotto",
+                    "total_ventas": 34430000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "3",
+                    "createdAt": "2021-06-15T19:26:01.263Z",
+                    "name": "Quiniela Loteka",
+                    "total_ventas": 78870000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "4",
+                    "createdAt": "2021-06-15T10:19:46.352Z",
+                    "name": "Chance Express",
+                    "total_ventas": 47740000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "5",
+                    "createdAt": "2021-06-15T17:45:11.593Z",
+                    "name": "El Extra",
+                    "total_ventas": 17710000,
+                    "meta": 10000000
+                }
+            ]
+        },
+        {
+            "id": "47",
+            "createdAt": "2021-06-15T14:18:22.417Z",
+            "name": 98,
+            "total_ventas": 54230213.00,
+            "procentaje": 95,
+            "productos": [
+                {
+                    "id": "1",
+                    "type": "1",
+                    "name": "Tradicionales",
+                    "promedio": 53,
+                    "meta": 5,
+                    "juegos": [],
+                    "createdAt": "2021-06-15T09:05:33.646Z"
+                },
+                {
+                    "id": "2",
+                    "type": "2",
+                    "name": "No Tradicionales",
+                    "promedio": 6,
+                    "meta": 74,
+                    "juegos": [],
+                    "createdAt": "2021-06-15T20:04:56.248Z"
+                },
+                {
+                    "id": "3",
+                    "type": "3",
+                    "name": "Reacargas",
+                    "promedio": 10,
+                    "meta": 25,
+                    "juegos": [],
+                    "createdAt": "2021-06-15T17:09:55.564Z"
+                }
+            ],
+            "juegos": [
+                {
+                    "id": "1",
+                    "createdAt": "2021-06-16T03:09:01.829Z",
+                    "name": "Mega Chance",
+                    "total_ventas": 35530000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "2",
+                    "createdAt": "2021-06-15T06:21:22.557Z",
+                    "name": "Mega Lotto",
+                    "total_ventas": 34430000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "3",
+                    "createdAt": "2021-06-15T19:26:01.263Z",
+                    "name": "Quiniela Loteka",
+                    "total_ventas": 78870000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "4",
+                    "createdAt": "2021-06-15T10:19:46.352Z",
+                    "name": "Chance Express",
+                    "total_ventas": 47740000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "5",
+                    "createdAt": "2021-06-15T17:45:11.593Z",
+                    "name": "El Extra",
+                    "total_ventas": 17710000,
+                    "meta": 10000000
+                }
+            ]
+        },
+        {
+            "id": "48",
+            "createdAt": "2021-06-15T19:20:54.097Z",
+            "name": 79,
+            "total_ventas": 35730213.00,
+            "procentaje": 53,
+            "productos": [
+                {
+                    "id": "1",
+                    "type": "1",
+                    "name": "Tradicionales",
+                    "promedio": 53,
+                    "meta": 5,
+                    "juegos": [],
+                    "createdAt": "2021-06-15T09:05:33.646Z"
+                },
+                {
+                    "id": "2",
+                    "type": "2",
+                    "name": "No Tradicionales",
+                    "promedio": 6,
+                    "meta": 74,
+                    "juegos": [],
+                    "createdAt": "2021-06-15T20:04:56.248Z"
+                },
+                {
+                    "id": "3",
+                    "type": "3",
+                    "name": "Reacargas",
+                    "promedio": 10,
+                    "meta": 25,
+                    "juegos": [],
+                    "createdAt": "2021-06-15T17:09:55.564Z"
+                }
+            ],
+            "juegos": [
+                {
+                    "id": "1",
+                    "createdAt": "2021-06-16T03:09:01.829Z",
+                    "name": "Mega Chance",
+                    "total_ventas": 35530000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "2",
+                    "createdAt": "2021-06-15T06:21:22.557Z",
+                    "name": "Mega Lotto",
+                    "total_ventas": 34430000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "3",
+                    "createdAt": "2021-06-15T19:26:01.263Z",
+                    "name": "Quiniela Loteka",
+                    "total_ventas": 78870000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "4",
+                    "createdAt": "2021-06-15T10:19:46.352Z",
+                    "name": "Chance Express",
+                    "total_ventas": 47740000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "5",
+                    "createdAt": "2021-06-15T17:45:11.593Z",
+                    "name": "El Extra",
+                    "total_ventas": 17710000,
+                    "meta": 10000000
+                }
+            ]
+        },
+        {
+            "id": "49",
+            "createdAt": "2021-06-15T23:12:17.101Z",
+            "name": 41,
+            "total_ventas": 630213.00,
+            "procentaje": 98,
+            "productos": [
+                {
+                    "id": "1",
+                    "type": "1",
+                    "name": "Tradicionales",
+                    "promedio": 53,
+                    "meta": 5,
+                    "juegos": [],
+                    "createdAt": "2021-06-15T09:05:33.646Z"
+                },
+                {
+                    "id": "2",
+                    "type": "2",
+                    "name": "No Tradicionales",
+                    "promedio": 6,
+                    "meta": 74,
+                    "juegos": [],
+                    "createdAt": "2021-06-15T20:04:56.248Z"
+                },
+                {
+                    "id": "3",
+                    "type": "3",
+                    "name": "Reacargas",
+                    "promedio": 10,
+                    "meta": 25,
+                    "juegos": [],
+                    "createdAt": "2021-06-15T17:09:55.564Z"
+                }
+            ],
+            "juegos": [
+                {
+                    "id": "1",
+                    "createdAt": "2021-06-16T03:09:01.829Z",
+                    "name": "Mega Chance",
+                    "total_ventas": 35530000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "2",
+                    "createdAt": "2021-06-15T06:21:22.557Z",
+                    "name": "Mega Lotto",
+                    "total_ventas": 34430000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "3",
+                    "createdAt": "2021-06-15T19:26:01.263Z",
+                    "name": "Quiniela Loteka",
+                    "total_ventas": 78870000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "4",
+                    "createdAt": "2021-06-15T10:19:46.352Z",
+                    "name": "Chance Express",
+                    "total_ventas": 47740000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "5",
+                    "createdAt": "2021-06-15T17:45:11.593Z",
+                    "name": "El Extra",
+                    "total_ventas": 17710000,
+                    "meta": 10000000
+                }
+            ]
+        },
+        {
+            "id": "50",
+            "createdAt": "2021-06-16T05:56:14.492Z",
+            "name": 11,
+            "total_ventas": 74030213.00,
+            "procentaje": 1,
+            "productos": [
+                {
+                    "id": "1",
+                    "type": "1",
+                    "name": "Tradicionales",
+                    "promedio": 53,
+                    "meta": 5,
+                    "juegos": [],
+                    "createdAt": "2021-06-15T09:05:33.646Z"
+                },
+                {
+                    "id": "2",
+                    "type": "2",
+                    "name": "No Tradicionales",
+                    "promedio": 6,
+                    "meta": 74,
+                    "juegos": [],
+                    "createdAt": "2021-06-15T20:04:56.248Z"
+                },
+                {
+                    "id": "3",
+                    "type": "3",
+                    "name": "Reacargas",
+                    "promedio": 10,
+                    "meta": 25,
+                    "juegos": [],
+                    "createdAt": "2021-06-15T17:09:55.564Z"
+                }
+            ],
+            "juegos": [
+                {
+                    "id": "1",
+                    "createdAt": "2021-06-16T03:09:01.829Z",
+                    "name": "Mega Chance",
+                    "total_ventas": 35530000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "2",
+                    "createdAt": "2021-06-15T06:21:22.557Z",
+                    "name": "Mega Lotto",
+                    "total_ventas": 34430000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "3",
+                    "createdAt": "2021-06-15T19:26:01.263Z",
+                    "name": "Quiniela Loteka",
+                    "total_ventas": 78870000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "4",
+                    "createdAt": "2021-06-15T10:19:46.352Z",
+                    "name": "Chance Express",
+                    "total_ventas": 47740000,
+                    "meta": 10000000
+                },
+                {
+                    "id": "5",
+                    "createdAt": "2021-06-15T17:45:11.593Z",
+                    "name": "El Extra",
+                    "total_ventas": 17710000,
+                    "meta": 10000000
+                }
+            ]
+        }
+    ]
 }
