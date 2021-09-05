@@ -1,0 +1,106 @@
+[
+    {
+        "id": "1",
+        "type": "tradicionales",
+        "name": "Tradicionales",
+        "porcentaje": 51,
+        "eficiencia": 1.5,
+        "total_ventas": 765468125,
+        "promedio": 535468125,
+        "meta": 100000000,
+        "juegos": [
+            1,
+            4,
+            5
+        ],
+        "createdAt": "2021-06-15T09:05:33.646Z"
+    },
+    {
+        "id": "2",
+        "type": "no_tradicionales",
+        "name": "No Tradicionales",
+        "porcentaje": 62,
+        "eficiencia": 0.6,
+        "total_ventas": 27468125,
+        "promedio": 65468125,
+        "meta": 100000000,
+        "juegos": [
+            2,
+            3,
+            4
+        ],
+        "createdAt": "2021-06-15T20:04:56.248Z"
+    },
+    {
+        "id": "3",
+        "type": "recargas",
+        "name": "Recargas",
+        "porcentaje": 73,
+        "eficiencia": 1.7,
+        "total_ventas": 11205564,
+        "promedio": 75205564,
+        "meta": 100000000,
+        "juegos": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ],
+        "createdAt": "2021-06-15T17:09:55.564Z"
+    },
+    {
+        "id": "4",
+        "type": "tradicionales",
+        "name": "Tradicionales",
+        "porcentaje": 54,
+        "eficiencia": 1.2,
+        "total_ventas": 655468125,
+        "promedio": 535468125,
+        "meta": 100000000,
+        "juegos": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ],
+        "createdAt": "2021-06-15T09:05:33.646Z"
+    },
+    {
+        "id": "5",
+        "type": "no_tradicionales",
+        "name": "No Tradicionales",
+        "porcentaje": 65,
+        "eficiencia": 0.6,
+        "total_ventas": 1468125,
+        "promedio": 65468125,
+        "meta": 100000000,
+        "juegos": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ],
+        "createdAt": "2021-06-15T20:04:56.248Z"
+    },
+    {
+        "id": "6",
+        "type": "recargas",
+        "name": "Recargas",
+        "porcentaje": 76,
+        "eficiencia": 0.7,
+        "total_ventas": 81205564,
+        "promedio": 75205564,
+        "meta": 100000000,
+        "juegos": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ],
+        "createdAt": "2021-06-15T17:09:55.564Z"
+    }
+]

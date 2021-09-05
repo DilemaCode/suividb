@@ -1,0 +1,1052 @@
+[
+    {
+        "id": "1",
+        "createdAt": "2021-06-15T10:59:16.616Z",
+        "hours": "10h 59m",
+        "name": "Agencia 821",
+        "grupo_agencia": "Loteka 5916",
+        "total_ventas": 76030213,
+        "porcentaje": 73,
+        "productos": [
+            1,
+            2,
+            3
+        ],
+        "juegos": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ]
+    },
+    {
+        "id": "2",
+        "createdAt": "2021-06-16T02:45:36.652Z",
+        "hours": "02h 45m",
+        "name": "Agencia 192",
+        "grupo_agencia": "Loteka 4536",
+        "total_ventas": 27630213,
+        "porcentaje": 84,
+        "productos": [
+            1,
+            2,
+            3
+        ],
+        "juegos": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ]
+    },
+    {
+        "id": "3",
+        "createdAt": "2021-06-16T01:34:54.252Z",
+        "hours": "01h 34m",
+        "name": "Agencia 413",
+        "grupo_agencia": "Loteka 3454",
+        "total_ventas": 11630213,
+        "porcentaje": 57,
+        "productos": [
+            1,
+            2,
+            3
+        ],
+        "juegos": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ]
+    },
+    {
+        "id": "4",
+        "createdAt": "2021-06-16T05:42:28.762Z",
+        "hours": "05h 42m",
+        "name": "Agencia 904",
+        "grupo_agencia": "Loteka 4228",
+        "total_ventas": 65630213,
+        "porcentaje": 78,
+        "productos": [
+            1,
+            2,
+            3
+        ],
+        "juegos": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ]
+    },
+    {
+        "id": "5",
+        "createdAt": "2021-06-15T23:12:47.328Z",
+        "hours": "23h 12m",
+        "name": "Agencia 875",
+        "grupo_agencia": "Loteka 1247",
+        "total_ventas": 1530213,
+        "porcentaje": 47,
+        "productos": [
+            1,
+            2,
+            3
+        ],
+        "juegos": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ]
+    },
+    {
+        "id": "6",
+        "createdAt": "2021-06-16T04:55:45.814Z",
+        "hours": "04h 55m",
+        "name": "Agencia 716",
+        "grupo_agencia": "Loteka 5545",
+        "total_ventas": 81230213,
+        "porcentaje": 37,
+        "productos": [
+            1,
+            2,
+            3
+        ],
+        "juegos": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ]
+    },
+    {
+        "id": "7",
+        "createdAt": "2021-06-15T12:57:52.173Z",
+        "hours": "12h 57m",
+        "name": "Agencia 537",
+        "grupo_agencia": "Loteka 5752",
+        "total_ventas": 70430213,
+        "porcentaje": 78,
+        "productos": [
+            1,
+            2,
+            3
+        ],
+        "juegos": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ]
+    },
+    {
+        "id": "8",
+        "createdAt": "2021-06-16T01:55:06.079Z",
+        "hours": "01h 55m",
+        "name": "Agencia 538",
+        "grupo_agencia": "Loteka 5506",
+        "total_ventas": 73830213,
+        "porcentaje": 66,
+        "productos": [
+            1,
+            2,
+            3
+        ],
+        "juegos": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ]
+    },
+    {
+        "id": "9",
+        "createdAt": "2021-06-15T16:38:32.256Z",
+        "hours": "16h 38m",
+        "name": "Agencia 989",
+        "grupo_agencia": "Loteka 3832",
+        "total_ventas": 69430213,
+        "porcentaje": 25,
+        "productos": [
+            1,
+            2,
+            3
+        ],
+        "juegos": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ]
+    },
+    {
+        "id": "10",
+        "createdAt": "2021-06-15T08:41:03.486Z",
+        "hours": "08h 41m",
+        "name": "Agencia 6910",
+        "grupo_agencia": "Loteka 4103",
+        "total_ventas": 76530213,
+        "porcentaje": 87,
+        "productos": [
+            1,
+            2,
+            3
+        ],
+        "juegos": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ]
+    },
+    {
+        "id": "11",
+        "createdAt": "2021-06-15T19:29:46.470Z",
+        "hours": "19h 29m",
+        "name": "Agencia 5711",
+        "grupo_agencia": "Loteka 2946",
+        "total_ventas": 55630213,
+        "porcentaje": 78,
+        "productos": [
+            1,
+            2,
+            3
+        ],
+        "juegos": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ]
+    },
+    {
+        "id": "12",
+        "createdAt": "2021-06-15T18:46:05.320Z",
+        "hours": "18h 46m",
+        "name": "Agencia 5312",
+        "grupo_agencia": "Loteka 4605",
+        "total_ventas": 36830213,
+        "porcentaje": 43,
+        "productos": [
+            1,
+            2,
+            3
+        ],
+        "juegos": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ]
+    },
+    {
+        "id": "13",
+        "createdAt": "2021-06-15T21:52:31.616Z",
+        "hours": "21h 52m",
+        "name": "Agencia 213",
+        "grupo_agencia": "Loteka 5231",
+        "total_ventas": 75430213,
+        "porcentaje": 81,
+        "productos": [
+            1,
+            2,
+            3
+        ],
+        "juegos": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ]
+    },
+    {
+        "id": "14",
+        "createdAt": "2021-06-15T22:59:05.881Z",
+        "hours": "22h 59m",
+        "name": "Agencia 5914",
+        "grupo_agencia": "Loteka 5905",
+        "total_ventas": 73630213,
+        "porcentaje": 64,
+        "productos": [
+            1,
+            2,
+            3
+        ],
+        "juegos": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ]
+    },
+    {
+        "id": "15",
+        "createdAt": "2021-06-15T10:39:00.991Z",
+        "hours": "10h 39m",
+        "name": "Agencia 5215",
+        "grupo_agencia": "Loteka 3900",
+        "total_ventas": 46430213,
+        "porcentaje": 85,
+        "productos": [
+            1,
+            2,
+            3
+        ],
+        "juegos": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ]
+    },
+    {
+        "id": "16",
+        "createdAt": "2021-06-16T03:41:51.459Z",
+        "hours": "03h 41m",
+        "name": "Agencia 1516",
+        "grupo_agencia": "Loteka 4151",
+        "total_ventas": 76530213,
+        "porcentaje": 29,
+        "productos": [
+            1,
+            2,
+            3
+        ],
+        "juegos": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ]
+    },
+    {
+        "id": "17",
+        "createdAt": "2021-06-15T23:07:34.072Z",
+        "hours": "23h 07m",
+        "name": "Agencia 2517",
+        "grupo_agencia": "Loteka 0734",
+        "total_ventas": 76730213,
+        "porcentaje": 69,
+        "productos": [
+            1,
+            2,
+            3
+        ],
+        "juegos": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ]
+    },
+    {
+        "id": "18",
+        "createdAt": "2021-06-15T22:26:12.886Z",
+        "hours": "22h 26m",
+        "name": "Agencia 318",
+        "grupo_agencia": "Loteka 2612",
+        "total_ventas": 7730213,
+        "porcentaje": 8,
+        "productos": [
+            1,
+            2,
+            3
+        ],
+        "juegos": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ]
+    },
+    {
+        "id": "19",
+        "createdAt": "2021-06-16T01:29:48.060Z",
+        "hours": "01h 29m",
+        "name": "Agencia 2519",
+        "grupo_agencia": "Loteka 2948",
+        "total_ventas": 35530213,
+        "porcentaje": 66,
+        "productos": [
+            1,
+            2,
+            3
+        ],
+        "juegos": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ]
+    },
+    {
+        "id": "20",
+        "createdAt": "2021-06-15T18:11:10.747Z",
+        "hours": "18h 11m",
+        "name": "Agencia 1020",
+        "grupo_agencia": "Loteka 1110",
+        "total_ventas": 28330213,
+        "porcentaje": 10,
+        "productos": [
+            1,
+            2,
+            3
+        ],
+        "juegos": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ]
+    },
+    {
+        "id": "21",
+        "createdAt": "2021-06-15T14:49:31.927Z",
+        "hours": "14h 49m",
+        "name": "Agencia 6621",
+        "grupo_agencia": "Loteka 4931",
+        "total_ventas": 98230213,
+        "porcentaje": 18,
+        "productos": [
+            1,
+            2,
+            3
+        ],
+        "juegos": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ]
+    },
+    {
+        "id": "22",
+        "createdAt": "2021-06-16T01:40:21.167Z",
+        "hours": "01h 40m",
+        "name": "Agencia 6122",
+        "grupo_agencia": "Loteka 4021",
+        "total_ventas": 78230213,
+        "porcentaje": 83,
+        "productos": [
+            1,
+            2,
+            3
+        ],
+        "juegos": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ]
+    },
+    {
+        "id": "23",
+        "createdAt": "2021-06-15T07:48:27.554Z",
+        "hours": "07h 48m",
+        "name": "Agencia 4123",
+        "grupo_agencia": "Loteka 4827",
+        "total_ventas": 90730213,
+        "porcentaje": 94,
+        "productos": [
+            1,
+            2,
+            3
+        ],
+        "juegos": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ]
+    },
+    {
+        "id": "24",
+        "createdAt": "2021-06-15T18:50:38.965Z",
+        "hours": "18h 50m",
+        "name": "Agencia 724",
+        "grupo_agencia": "Loteka 5038",
+        "total_ventas": 730213,
+        "porcentaje": 17,
+        "productos": [
+            1,
+            2,
+            3
+        ],
+        "juegos": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ]
+    },
+    {
+        "id": "25",
+        "createdAt": "2021-06-15T21:28:00.398Z",
+        "hours": "21h 28m",
+        "name": "Agencia 6525",
+        "grupo_agencia": "Loteka 2800",
+        "total_ventas": 85530213,
+        "porcentaje": 71,
+        "productos": [
+            1,
+            2,
+            3
+        ],
+        "juegos": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ]
+    },
+    {
+        "id": "26",
+        "createdAt": "2021-06-15T13:09:21.099Z",
+        "hours": "13h 09m",
+        "name": "Agencia 7826",
+        "grupo_agencia": "Loteka 0921",
+        "total_ventas": 65930213,
+        "porcentaje": 46,
+        "productos": [
+            1,
+            2,
+            3
+        ],
+        "juegos": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ]
+    },
+    {
+        "id": "27",
+        "createdAt": "2021-06-15T19:38:54.231Z",
+        "hours": "19h 38m",
+        "name": "Agencia 10027",
+        "grupo_agencia": "Loteka 3854",
+        "total_ventas": 92830213,
+        "porcentaje": 24,
+        "productos": [
+            1,
+            2,
+            3
+        ],
+        "juegos": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ]
+    },
+    {
+        "id": "28",
+        "createdAt": "2021-06-15T19:27:50.291Z",
+        "hours": "19h 27m",
+        "name": "Agencia 2428",
+        "grupo_agencia": "Loteka 2750",
+        "total_ventas": 73530213,
+        "porcentaje": 55,
+        "productos": [
+            1,
+            2,
+            3
+        ],
+        "juegos": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ]
+    },
+    {
+        "id": "29",
+        "createdAt": "2021-06-15T19:38:37.499Z",
+        "hours": "19h 38m",
+        "name": "Agencia 2729",
+        "grupo_agencia": "Loteka 3837",
+        "total_ventas": 56730213,
+        "porcentaje": 6,
+        "productos": [
+            1,
+            2,
+            3
+        ],
+        "juegos": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ]
+    },
+    {
+        "id": "30",
+        "createdAt": "2021-06-15T06:58:31.923Z",
+        "hours": "06h 58m",
+        "name": "Agencia 2630",
+        "grupo_agencia": "Loteka 5831",
+        "total_ventas": 34130213,
+        "porcentaje": 59,
+        "productos": [
+            1,
+            2,
+            3
+        ],
+        "juegos": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ]
+    },
+    {
+        "id": "31",
+        "createdAt": "2021-06-16T03:42:39.750Z",
+        "hours": "03h 42m",
+        "name": "Agencia 8531",
+        "grupo_agencia": "Loteka 4239",
+        "total_ventas": 21930213,
+        "porcentaje": 93,
+        "productos": [
+            1,
+            2,
+            3
+        ],
+        "juegos": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ]
+    },
+    {
+        "id": "32",
+        "createdAt": "2021-06-15T19:27:16.456Z",
+        "hours": "19h 27m",
+        "name": "Agencia 1932",
+        "grupo_agencia": "Loteka 2716",
+        "total_ventas": 59130213,
+        "porcentaje": 31,
+        "productos": [
+            1,
+            2,
+            3
+        ],
+        "juegos": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ]
+    },
+    {
+        "id": "33",
+        "createdAt": "2021-06-15T13:19:51.626Z",
+        "hours": "13h 19m",
+        "name": "Agencia 9233",
+        "grupo_agencia": "Loteka 1951",
+        "total_ventas": 76830213,
+        "porcentaje": 69,
+        "productos": [
+            1,
+            2,
+            3
+        ],
+        "juegos": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ]
+    },
+    {
+        "id": "34",
+        "createdAt": "2021-06-15T16:15:18.157Z",
+        "hours": "16h 15m",
+        "name": "Agencia 9834",
+        "grupo_agencia": "Loteka 1518",
+        "total_ventas": 72730213,
+        "porcentaje": 45,
+        "productos": [
+            1,
+            2,
+            3
+        ],
+        "juegos": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ]
+    },
+    {
+        "id": "35",
+        "createdAt": "2021-06-15T09:24:47.656Z",
+        "hours": "09h 24m",
+        "name": "Agencia 2635",
+        "grupo_agencia": "Loteka 2447",
+        "total_ventas": 37630213,
+        "porcentaje": 89,
+        "productos": [
+            1,
+            2,
+            3
+        ],
+        "juegos": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ]
+    },
+    {
+        "id": "36",
+        "createdAt": "2021-06-15T19:38:53.094Z",
+        "hours": "19h 38m",
+        "name": "Agencia 2236",
+        "grupo_agencia": "Loteka 3853",
+        "total_ventas": 65430213,
+        "porcentaje": 82,
+        "productos": [
+            1,
+            2,
+            3
+        ],
+        "juegos": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ]
+    },
+    {
+        "id": "37",
+        "createdAt": "2021-06-15T21:27:48.878Z",
+        "hours": "21h 27m",
+        "name": "Agencia 2337",
+        "grupo_agencia": "Loteka 2748",
+        "total_ventas": 15030213,
+        "porcentaje": 8,
+        "productos": [
+            1,
+            2,
+            3
+        ],
+        "juegos": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ]
+    },
+    {
+        "id": "38",
+        "createdAt": "2021-06-16T06:21:10.205Z",
+        "hours": "06h 21m",
+        "name": "Agencia 5638",
+        "grupo_agencia": "Loteka 2110",
+        "total_ventas": 52530213,
+        "porcentaje": 95,
+        "productos": [
+            1,
+            2,
+            3
+        ],
+        "juegos": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ]
+    },
+    {
+        "id": "39",
+        "createdAt": "2021-06-15T17:00:17.735Z",
+        "hours": "17h 00m",
+        "name": "Agencia 8339",
+        "grupo_agencia": "Loteka 0017",
+        "total_ventas": 95530213,
+        "porcentaje": 92,
+        "productos": [
+            1,
+            2,
+            3
+        ],
+        "juegos": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ]
+    },
+    {
+        "id": "40",
+        "createdAt": "2021-06-15T19:36:27.864Z",
+        "hours": "19h 36m",
+        "name": "Agencia 1340",
+        "grupo_agencia": "Loteka 3627",
+        "total_ventas": 98330213,
+        "porcentaje": 19,
+        "productos": [
+            1,
+            2,
+            3
+        ],
+        "juegos": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ]
+    },
+    {
+        "id": "41",
+        "createdAt": "2021-06-15T09:39:23.646Z",
+        "hours": "09h 39m",
+        "name": "Agencia 4241",
+        "grupo_agencia": "Loteka 3923",
+        "total_ventas": 7330213,
+        "porcentaje": 84,
+        "productos": [
+            1,
+            2,
+            3
+        ],
+        "juegos": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ]
+    },
+    {
+        "id": "42",
+        "createdAt": "2021-06-15T09:41:13.683Z",
+        "hours": "09h 41m",
+        "name": "Agencia 6442",
+        "grupo_agencia": "Loteka 4113",
+        "total_ventas": 99730213,
+        "porcentaje": 3,
+        "productos": [
+            1,
+            2,
+            3
+        ],
+        "juegos": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ]
+    },
+    {
+        "id": "43",
+        "createdAt": "2021-06-15T17:43:08.973Z",
+        "hours": "17h 43m",
+        "name": "Agencia 8943",
+        "grupo_agencia": "Loteka 4308",
+        "total_ventas": 63830213,
+        "porcentaje": 24,
+        "productos": [
+            1,
+            2,
+            3
+        ],
+        "juegos": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ]
+    },
+    {
+        "id": "44",
+        "createdAt": "2021-06-15T18:40:17.542Z",
+        "hours": "18h 40m",
+        "name": "Agencia 9444",
+        "grupo_agencia": "Loteka 4017",
+        "total_ventas": 10930213,
+        "porcentaje": 74,
+        "productos": [
+            1,
+            2,
+            3
+        ],
+        "juegos": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ]
+    },
+    {
+        "id": "45",
+        "createdAt": "2021-06-16T06:06:47.958Z",
+        "hours": "06h 06m",
+        "name": "Agencia 1145",
+        "grupo_agencia": "Loteka 0647",
+        "total_ventas": 26430213,
+        "porcentaje": 87,
+        "productos": [
+            1,
+            2,
+            3
+        ],
+        "juegos": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ]
+    },
+    {
+        "id": "46",
+        "createdAt": "2021-06-15T15:43:15.502Z",
+        "hours": "15h 43m",
+        "name": "Agencia 1346",
+        "grupo_agencia": "Loteka 4315",
+        "total_ventas": 25930213,
+        "porcentaje": 41,
+        "productos": [
+            1,
+            2,
+            3
+        ],
+        "juegos": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ]
+    },
+    {
+        "id": "47",
+        "createdAt": "2021-06-15T14:18:22.417Z",
+        "hours": "14h 18m",
+        "name": "Agencia 9847",
+        "grupo_agencia": "Loteka 1822",
+        "total_ventas": 54230213,
+        "porcentaje": 95,
+        "productos": [
+            1,
+            2,
+            3
+        ],
+        "juegos": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ]
+    },
+    {
+        "id": "48",
+        "createdAt": "2021-06-15T19:20:54.097Z",
+        "hours": "19h 20m",
+        "name": "Agencia 7948",
+        "grupo_agencia": "Loteka 2054",
+        "total_ventas": 35730213,
+        "porcentaje": 53,
+        "productos": [
+            1,
+            2,
+            3
+        ],
+        "juegos": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ]
+    },
+    {
+        "id": "49",
+        "createdAt": "2021-06-15T23:12:17.101Z",
+        "hours": "23h 12m",
+        "name": "Agencia 4149",
+        "grupo_agencia": "Loteka 1217",
+        "total_ventas": 630213,
+        "porcentaje": 98,
+        "productos": [
+            1,
+            2,
+            3
+        ],
+        "juegos": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ]
+    },
+    {
+        "id": "50",
+        "createdAt": "2021-06-16T05:56:14.492Z",
+        "hours": "05h 56m",
+        "name": "Agencia 1150",
+        "grupo_agencia": "Loteka 5614",
+        "total_ventas": 74030213,
+        "porcentaje": 1,
+        "productos": [
+            1,
+            2,
+            3
+        ],
+        "juegos": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ]
+    }
+]

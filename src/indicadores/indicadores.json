@@ -1,0 +1,52 @@
+[
+    {
+        "id": "1",
+        "createdAt": "2021-06-16T03:09:01.829Z",
+        "name": "No Ventas",
+        "type": "no_ventas",
+        "descripcion": "Agencias que no han reportado ventas en más de 2 horas.",
+        "agencias": [
+            1,
+            2,
+            3
+        ]
+    },
+    {
+        "id": "2",
+        "createdAt": "2021-06-15T06:21:22.557Z",
+        "name": "Metas no alcanzadas",
+        "type": "metas_no_alcanzadas",
+        "descripcion": "Agencias con bajo promedio de ventas.",
+        "agencias": [
+            50,
+            49,
+            48,
+            47,
+            46,
+            45
+        ]
+    },
+    {
+        "id": "3",
+        "createdAt": "2021-06-15T06:21:22.557Z",
+        "name": "Agencias sin apertura",
+        "type": "sin_apertura",
+        "descripcion": "Agencias ventas que no han abierto en el dia de hoy.",
+        "agencias": [
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34
+        ]
+    }
+]

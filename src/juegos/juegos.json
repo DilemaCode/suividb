@@ -1,0 +1,37 @@
+[
+    {
+        "id": "1",
+        "createdAt": "2021-06-16T03:09:01.829Z",
+        "name": "Mega Chance",
+        "total_ventas": 892031245,
+        "eficiencia": 89
+    },
+    {
+        "id": "2",
+        "createdAt": "2021-06-15T06:21:22.557Z",
+        "name": "Mega Lotto",
+        "total_ventas": 212829023,
+        "eficiencia": 21
+    },
+    {
+        "id": "3",
+        "createdAt": "2021-06-15T19:26:01.263Z",
+        "name": "Quiniela Loteka",
+        "total_ventas": 70123221,
+        "eficiencia": 7
+    },
+    {
+        "id": "4",
+        "createdAt": "2021-06-15T10:19:46.352Z",
+        "name": "Chance Express",
+        "total_ventas": 679424500,
+        "eficiencia": 67
+    },
+    {
+        "id": "5",
+        "createdAt": "2021-06-15T17:45:11.593Z",
+        "name": "El Extra",
+        "total_ventas": 431434245,
+        "eficiencia": 43
+    }
+]
